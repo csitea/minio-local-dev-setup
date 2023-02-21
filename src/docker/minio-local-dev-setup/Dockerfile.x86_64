@@ -10,6 +10,7 @@ ARG BASE_DIR
 ARG ORG_DIR
 ARG PRODUCT_DIR
 
+ENV MODULE="minio-local-dev-setup"
 ENV ORG=$ORG
 ENV APP=$APP
 ENV ENV=$ENV
@@ -22,7 +23,7 @@ ENV APPUSR=appusr
 ENV APPGRP=appgrp
 ENV PS1="`date \"+%F %T\"` \u@\h  \w \n\n  "
 ENV PRODUCT_DIR="/$BASE_DIR/$ORG_DIR/$PRODUCT"
-ENV HOME_PRODUCT_DIR="/home/$APPUSR/$BASE_DIR/$ORG_DIR/$PRODUCT"
+ENV HOME_PRODUCT_DIR="/home/${APPUSR}${BASE_DIR}/$ORG_DIR/$PRODUCT"
 ENV EDITOR="vim"
 
 ENV TERM="xterm-256color"
@@ -39,21 +40,10 @@ RUN apk update && \
     build-base gcc openssl-dev git \
     libmagic ttf-freefont make jq \
     python3-dev jpeg-dev zlib-dev \
-    coreutils libffi-dev util-linux
+    coreutils libffi-dev util-linux openssl lsof
 
 
-# Installs latest Chromium (92) package.
-RUN apk add --no-cache \
-      chromium \
-      nss \
-      freetype \
-      harfbuzz \
-      ca-certificates \
-      ttf-freefont
-# STOP ::: install bins
-
-
-# START ::
+# START :: install aws-cli
 # In order to run awscliv2 on alpine we need more from glibc than musl
 # https://github.com/aws/aws-cli/issues/4685#issuecomment-615872019
 ENV GLIBC_VER=2.31-r0
@@ -67,6 +57,8 @@ RUN curl -sL https://alpine-pkgs.sgerrand.com/sgerrand.rsa.pub -o /etc/apk/keys/
 RUN apk update && \
     apk upgrade && \
     apk add --no-cache aws-cli
+
+# STOP  :: install aws-cli
 
 
 # START ::: Enable host to container edit of proj code on ubuntu and mac.
@@ -107,7 +99,6 @@ RUN echo -e "\n installing the aws-iam-authenticator - this might take even 3 mi
 
 ENV PATH /home/$APPUSR/bin:${PATH}
 
-# but use the proj root dir to write the code on and interact
-WORKDIR $PRODUCT_DIR
+RUN $HOME_PRODUCT_DIR/run -a do_install_minio
 
-CMD exec /bin/bash -c "${HOME_PRODUCT_DIR}/src/bash/run/docker-init-url-reader.sh"
+CMD exec /bin/bash -c "${HOME_PRODUCT_DIR}/src/bash/run/docker-init-${MODULE}.sh"

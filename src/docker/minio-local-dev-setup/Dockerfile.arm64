@@ -10,6 +10,7 @@ ARG BASE_DIR
 ARG ORG_DIR
 ARG PRODUCT_DIR
 
+ENV MODULE="minio-local-dev-setup"
 ENV ORG=$ORG
 ENV APP=$APP
 ENV ENV=$ENV
@@ -39,7 +40,7 @@ RUN apk update && \
     python3-dev jpeg-dev zlib-dev \
     coreutils libffi-dev util-linux
 
-RUN wget https://bootstrap.pypa.io/get-pip.py ; sudo python3 get-pip.py ; sudo rm -v get-pip.py
+
 
 # Installs latest Chromium (92) package.
 RUN apk add --no-cache \
@@ -81,7 +82,6 @@ ADD --chown=$APPUSR:$APPGRP "." "$HOME_PRODUCT_DIR"
 USER $APPUSR
 WORKDIR $PRODUCT_DIR
 
-RUN SUB_COMPONENT=monitor "/home/$APPUSR$PRODUCT_DIR/src/bash/run/run.sh" -a do_check_install_py_modules
 
 # install awscli
 RUN pip3 install --upgrade pip \
@@ -100,4 +100,4 @@ ENV PATH /home/$APPUSR/bin:${PATH}
 # but use the proj root dir to write the code on and interact
 WORKDIR $PRODUCT_DIR
 
-CMD exec /bin/bash -c "/home/$APPUSR/$PRODUCT_DIR/src/bash/run/docker-init-monitor.sh"
+CMD exec /bin/bash -c "${HOME_PRODUCT_DIR}/src/bash/run/docker-init-${MODULE}.sh"

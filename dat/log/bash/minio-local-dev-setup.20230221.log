@@ -1,3 +1,770 @@
 [0;34m ℹ  [INFO] 2023-02-21 11:18:21 EET [minio-local-dev-setup][@mac-02] [44278] START ::: running action :: do_print_usage  [0m
 [0;34m ℹ  [INFO] 2023-02-21 11:18:35 EET [minio-local-dev-setup][@mac-02] [44929] START ::: running action :: do_print_usage  [0m
 [0;34m ℹ  [INFO] 2023-02-21 11:18:40 EET [minio-local-dev-setup][@mac-02] [45572] START ::: running action :: do_morph_module  [0m
+[0;34m ℹ  [INFO] 2023-02-21 11:37:25 EET [minio-local-dev-setup][@mac-02] [47268] START ::: running action :: do_print_usage  [0m
+[0;34m ℹ  [INFO] 2023-02-21 11:41:53 EET [minio-local-dev-setup][@mac-02] [48700] START ::: running action :: do_morph_module  [0m
+[0;34m ℹ  [INFO] 2023-02-21 11:42:26 EET [minio-local-dev-setup][@mac-02] [49268] START ::: running action :: do_morph_module  [0m
+[0;34m ℹ  [INFO] 2023-02-21 11:42:26 EET [minio-local-dev-setup][@mac-02] [49268] produced the /opt/csi/minio-local-dev-setup.zip file  [0m
+[0;34m ℹ  [INFO] 2023-02-21 11:43:52 EET [minio-local-dev-setup][@mac-02] [49940] START ::: running action :: do_morph_module  [0m
+[0;34m ℹ  [INFO] 2023-02-21 11:43:52 EET [minio-local-dev-setup][@mac-02] [49940] produced the /opt/csi/minio-local-dev-setup.zip file  [0m
+[0;34m ℹ  [INFO] 2023-02-21 11:45:24 EET [minio-local-dev-setup][@mac-02] [50604] START ::: running action :: do_morph_module  [0m
+[0;34m ℹ  [INFO] 2023-02-21 11:45:24 EET [minio-local-dev-setup][@mac-02] [50604] produced the /opt/csi/minio-local-dev-setup.zip file  [0m
+[0;34m ℹ  [INFO] 2023-02-21 11:45:25 EET [minio-local-dev-setup][@mac-02] [50604] DIR_TO_MORPH: /opt/csi/aws-cli-local-dev-setup  [0m
+[0;34m ℹ  [INFO] 2023-02-21 11:45:25 EET [minio-local-dev-setup][@mac-02] [50604] STR_TO_SRCH:"minio-local-dev-setup"  [0m
+[0;34m ℹ  [INFO] 2023-02-21 11:45:25 EET [minio-local-dev-setup][@mac-02] [50604] STR_TO_REPL:"aws-cli-local-dev-setup"  [0m
+[0;34m ℹ  [INFO] 2023-02-21 11:45:27 EET [minio-local-dev-setup][@mac-02] [50604] START :: search and replace in non-binary files  [0m
+ [DEBUG] 2023-02-21 11:45:27 EET [minio-local-dev-setup][@mac-02] [50604] working on file: /opt/csi/aws-cli-local-dev-setup/.editorconfig 
+ [DEBUG] 2023-02-21 11:45:27 EET [minio-local-dev-setup][@mac-02] [50604] searching for minio-local-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 11:45:27 EET [minio-local-dev-setup][@mac-02] [50604] working on file: /opt/csi/aws-cli-local-dev-setup/cnf/lst/run.sh.exclude.lst 
+ [DEBUG] 2023-02-21 11:45:27 EET [minio-local-dev-setup][@mac-02] [50604] searching for minio-local-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 11:45:27 EET [minio-local-dev-setup][@mac-02] [50604] working on file: /opt/csi/aws-cli-local-dev-setup/cnf/lst/aws-cli-local-dev-setup.exclude.lst 
+ [DEBUG] 2023-02-21 11:45:27 EET [minio-local-dev-setup][@mac-02] [50604] searching for minio-local-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 11:45:27 EET [minio-local-dev-setup][@mac-02] [50604] working on file: /opt/csi/aws-cli-local-dev-setup/cnf/lst/run.sh.include.lst 
+ [DEBUG] 2023-02-21 11:45:27 EET [minio-local-dev-setup][@mac-02] [50604] searching for minio-local-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 11:45:27 EET [minio-local-dev-setup][@mac-02] [50604] working on file: /opt/csi/aws-cli-local-dev-setup/cnf/lst/aws-cli-local-dev-setup.include.lst 
+ [DEBUG] 2023-02-21 11:45:27 EET [minio-local-dev-setup][@mac-02] [50604] searching for minio-local-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 11:45:27 EET [minio-local-dev-setup][@mac-02] [50604] working on file: /opt/csi/aws-cli-local-dev-setup/lib/bash/funcs/manjaro-install-bins.func.sh 
+ [DEBUG] 2023-02-21 11:45:27 EET [minio-local-dev-setup][@mac-02] [50604] searching for minio-local-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 11:45:27 EET [minio-local-dev-setup][@mac-02] [50604] working on file: /opt/csi/aws-cli-local-dev-setup/lib/bash/funcs/require-var.func.sh 
+ [DEBUG] 2023-02-21 11:45:27 EET [minio-local-dev-setup][@mac-02] [50604] searching for minio-local-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 11:45:27 EET [minio-local-dev-setup][@mac-02] [50604] working on file: /opt/csi/aws-cli-local-dev-setup/lib/bash/funcs/ubuntu-install-bins.func.sh 
+ [DEBUG] 2023-02-21 11:45:27 EET [minio-local-dev-setup][@mac-02] [50604] searching for minio-local-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 11:45:27 EET [minio-local-dev-setup][@mac-02] [50604] working on file: /opt/csi/aws-cli-local-dev-setup/lib/bash/funcs/set-vars-on-suse.func.sh 
+ [DEBUG] 2023-02-21 11:45:27 EET [minio-local-dev-setup][@mac-02] [50604] searching for minio-local-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 11:45:27 EET [minio-local-dev-setup][@mac-02] [50604] working on file: /opt/csi/aws-cli-local-dev-setup/lib/bash/funcs/set-vars-on-alpine.func.sh 
+ [DEBUG] 2023-02-21 11:45:27 EET [minio-local-dev-setup][@mac-02] [50604] searching for minio-local-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 11:45:27 EET [minio-local-dev-setup][@mac-02] [50604] working on file: /opt/csi/aws-cli-local-dev-setup/lib/bash/funcs/test-helpers.sh 
+ [DEBUG] 2023-02-21 11:45:27 EET [minio-local-dev-setup][@mac-02] [50604] searching for minio-local-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 11:45:27 EET [minio-local-dev-setup][@mac-02] [50604] working on file: /opt/csi/aws-cli-local-dev-setup/lib/bash/funcs/zip-me.func.sh 
+ [DEBUG] 2023-02-21 11:45:27 EET [minio-local-dev-setup][@mac-02] [50604] searching for minio-local-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 11:45:28 EET [minio-local-dev-setup][@mac-02] [50604] working on file: /opt/csi/aws-cli-local-dev-setup/lib/bash/funcs/mac-install-bins.func.sh 
+ [DEBUG] 2023-02-21 11:45:28 EET [minio-local-dev-setup][@mac-02] [50604] searching for minio-local-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 11:45:28 EET [minio-local-dev-setup][@mac-02] [50604] working on file: /opt/csi/aws-cli-local-dev-setup/lib/bash/funcs/parse-ini-section-vars.func.sh 
+ [DEBUG] 2023-02-21 11:45:28 EET [minio-local-dev-setup][@mac-02] [50604] searching for minio-local-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 11:45:28 EET [minio-local-dev-setup][@mac-02] [50604] working on file: /opt/csi/aws-cli-local-dev-setup/lib/bash/funcs/morph-dir.func.sh 
+ [DEBUG] 2023-02-21 11:45:28 EET [minio-local-dev-setup][@mac-02] [50604] searching for minio-local-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 11:45:28 EET [minio-local-dev-setup][@mac-02] [50604] working on file: /opt/csi/aws-cli-local-dev-setup/lib/bash/funcs/set-vars-on-ubuntu.func.sh 
+ [DEBUG] 2023-02-21 11:45:28 EET [minio-local-dev-setup][@mac-02] [50604] searching for minio-local-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 11:45:28 EET [minio-local-dev-setup][@mac-02] [50604] working on file: /opt/csi/aws-cli-local-dev-setup/lib/bash/funcs/flush-screen.func.sh 
+ [DEBUG] 2023-02-21 11:45:28 EET [minio-local-dev-setup][@mac-02] [50604] searching for minio-local-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 11:45:28 EET [minio-local-dev-setup][@mac-02] [50604] working on file: /opt/csi/aws-cli-local-dev-setup/lib/bash/funcs/suse-install-bins.func.sh 
+ [DEBUG] 2023-02-21 11:45:28 EET [minio-local-dev-setup][@mac-02] [50604] searching for minio-local-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 11:45:28 EET [minio-local-dev-setup][@mac-02] [50604] working on file: /opt/csi/aws-cli-local-dev-setup/lib/bash/funcs/set-vars-on-mac.func.sh 
+ [DEBUG] 2023-02-21 11:45:28 EET [minio-local-dev-setup][@mac-02] [50604] searching for minio-local-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 11:45:28 EET [minio-local-dev-setup][@mac-02] [50604] working on file: /opt/csi/aws-cli-local-dev-setup/lib/bash/funcs/export-json-section-vars.func.sh 
+ [DEBUG] 2023-02-21 11:45:28 EET [minio-local-dev-setup][@mac-02] [50604] searching for minio-local-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 11:45:28 EET [minio-local-dev-setup][@mac-02] [50604] working on file: /opt/csi/aws-cli-local-dev-setup/src/bash/run/set-vars-on-manjaro.func.sh 
+ [DEBUG] 2023-02-21 11:45:28 EET [minio-local-dev-setup][@mac-02] [50604] searching for minio-local-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 11:45:28 EET [minio-local-dev-setup][@mac-02] [50604] working on file: /opt/csi/aws-cli-local-dev-setup/src/bash/run/scan-to-list-file.func.sh 
+ [DEBUG] 2023-02-21 11:45:28 EET [minio-local-dev-setup][@mac-02] [50604] searching for minio-local-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 11:45:28 EET [minio-local-dev-setup][@mac-02] [50604] working on file: /opt/csi/aws-cli-local-dev-setup/src/bash/run/set-vars-on-suse.func.sh 
+ [DEBUG] 2023-02-21 11:45:28 EET [minio-local-dev-setup][@mac-02] [50604] searching for minio-local-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 11:45:28 EET [minio-local-dev-setup][@mac-02] [50604] working on file: /opt/csi/aws-cli-local-dev-setup/src/bash/run/zip-me-as-module.func.sh 
+ [DEBUG] 2023-02-21 11:45:28 EET [minio-local-dev-setup][@mac-02] [50604] searching for minio-local-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 11:45:28 EET [minio-local-dev-setup][@mac-02] [50604] working on file: /opt/csi/aws-cli-local-dev-setup/src/bash/run/set-vars-on-alpine.func.sh 
+ [DEBUG] 2023-02-21 11:45:28 EET [minio-local-dev-setup][@mac-02] [50604] searching for minio-local-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 11:45:28 EET [minio-local-dev-setup][@mac-02] [50604] working on file: /opt/csi/aws-cli-local-dev-setup/src/bash/run/print-usage.func.sh 
+ [DEBUG] 2023-02-21 11:45:28 EET [minio-local-dev-setup][@mac-02] [50604] searching for minio-local-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 11:45:28 EET [minio-local-dev-setup][@mac-02] [50604] working on file: /opt/csi/aws-cli-local-dev-setup/src/bash/run/run.sh 
+ [DEBUG] 2023-02-21 11:45:28 EET [minio-local-dev-setup][@mac-02] [50604] searching for minio-local-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 11:45:28 EET [minio-local-dev-setup][@mac-02] [50604] working on file: /opt/csi/aws-cli-local-dev-setup/src/bash/run/morph-module.func.sh 
+ [DEBUG] 2023-02-21 11:45:28 EET [minio-local-dev-setup][@mac-02] [50604] searching for minio-local-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 11:45:28 EET [minio-local-dev-setup][@mac-02] [50604] working on file: /opt/csi/aws-cli-local-dev-setup/src/bash/run/set-vars-on-ubuntu.func.sh 
+ [DEBUG] 2023-02-21 11:45:28 EET [minio-local-dev-setup][@mac-02] [50604] searching for minio-local-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 11:45:28 EET [minio-local-dev-setup][@mac-02] [50604] working on file: /opt/csi/aws-cli-local-dev-setup/src/bash/run/set-vars-on-mac.func.sh 
+ [DEBUG] 2023-02-21 11:45:28 EET [minio-local-dev-setup][@mac-02] [50604] searching for minio-local-dev-setup , replacing with :: aws-cli-local-dev-setup 
+[0;34m ℹ  [INFO] 2023-02-21 11:45:28 EET [minio-local-dev-setup][@mac-02] [50604] STOP :: search and replace in non-binary files  [0m
+[0;34m ℹ  [INFO] 2023-02-21 11:45:29 EET [minio-local-dev-setup][@mac-02] [50604] search and replace in dir and file paths DIR_TO_MORPH:/opt/csi/aws-cli-local-dev-setup  [0m
+ [DEBUG] 2023-02-21 11:45:29 EET [minio-local-dev-setup][@mac-02] [50604] SRC_MODULE_UNDERSCORED: minio_local_dev_setup 
+ [DEBUG] 2023-02-21 11:45:29 EET [minio-local-dev-setup][@mac-02] [50604] TGT_MODULE_UNDERSCORED: aws_cli_loca_dev_setup 
+[0;34m ℹ  [INFO] 2023-02-21 11:45:30 EET [minio-local-dev-setup][@mac-02] [50604] DIR_TO_MORPH: /opt/csi/aws-cli-local-dev-setup  [0m
+[0;34m ℹ  [INFO] 2023-02-21 11:45:30 EET [minio-local-dev-setup][@mac-02] [50604] STR_TO_SRCH:"minio_local_dev_setup"  [0m
+[0;34m ℹ  [INFO] 2023-02-21 11:45:30 EET [minio-local-dev-setup][@mac-02] [50604] STR_TO_REPL:"aws_cli_loca_dev_setup"  [0m
+[0;34m ℹ  [INFO] 2023-02-21 11:45:32 EET [minio-local-dev-setup][@mac-02] [50604] START :: search and replace in non-binary files  [0m
+ [DEBUG] 2023-02-21 11:45:32 EET [minio-local-dev-setup][@mac-02] [50604] working on file: /opt/csi/aws-cli-local-dev-setup/.editorconfig 
+ [DEBUG] 2023-02-21 11:45:32 EET [minio-local-dev-setup][@mac-02] [50604] searching for minio_local_dev_setup , replacing with :: aws_cli_loca_dev_setup 
+ [DEBUG] 2023-02-21 11:45:32 EET [minio-local-dev-setup][@mac-02] [50604] working on file: /opt/csi/aws-cli-local-dev-setup/cnf/lst/run.sh.exclude.lst 
+ [DEBUG] 2023-02-21 11:45:32 EET [minio-local-dev-setup][@mac-02] [50604] searching for minio_local_dev_setup , replacing with :: aws_cli_loca_dev_setup 
+ [DEBUG] 2023-02-21 11:45:32 EET [minio-local-dev-setup][@mac-02] [50604] working on file: /opt/csi/aws-cli-local-dev-setup/cnf/lst/aws-cli-local-dev-setup.exclude.lst 
+ [DEBUG] 2023-02-21 11:45:32 EET [minio-local-dev-setup][@mac-02] [50604] searching for minio_local_dev_setup , replacing with :: aws_cli_loca_dev_setup 
+ [DEBUG] 2023-02-21 11:45:33 EET [minio-local-dev-setup][@mac-02] [50604] working on file: /opt/csi/aws-cli-local-dev-setup/cnf/lst/run.sh.include.lst 
+ [DEBUG] 2023-02-21 11:45:33 EET [minio-local-dev-setup][@mac-02] [50604] searching for minio_local_dev_setup , replacing with :: aws_cli_loca_dev_setup 
+ [DEBUG] 2023-02-21 11:45:33 EET [minio-local-dev-setup][@mac-02] [50604] working on file: /opt/csi/aws-cli-local-dev-setup/cnf/lst/aws-cli-local-dev-setup.include.lst 
+ [DEBUG] 2023-02-21 11:45:33 EET [minio-local-dev-setup][@mac-02] [50604] searching for minio_local_dev_setup , replacing with :: aws_cli_loca_dev_setup 
+ [DEBUG] 2023-02-21 11:45:33 EET [minio-local-dev-setup][@mac-02] [50604] working on file: /opt/csi/aws-cli-local-dev-setup/lib/bash/funcs/manjaro-install-bins.func.sh 
+ [DEBUG] 2023-02-21 11:45:33 EET [minio-local-dev-setup][@mac-02] [50604] searching for minio_local_dev_setup , replacing with :: aws_cli_loca_dev_setup 
+ [DEBUG] 2023-02-21 11:45:33 EET [minio-local-dev-setup][@mac-02] [50604] working on file: /opt/csi/aws-cli-local-dev-setup/lib/bash/funcs/require-var.func.sh 
+ [DEBUG] 2023-02-21 11:45:33 EET [minio-local-dev-setup][@mac-02] [50604] searching for minio_local_dev_setup , replacing with :: aws_cli_loca_dev_setup 
+ [DEBUG] 2023-02-21 11:45:33 EET [minio-local-dev-setup][@mac-02] [50604] working on file: /opt/csi/aws-cli-local-dev-setup/lib/bash/funcs/ubuntu-install-bins.func.sh 
+ [DEBUG] 2023-02-21 11:45:33 EET [minio-local-dev-setup][@mac-02] [50604] searching for minio_local_dev_setup , replacing with :: aws_cli_loca_dev_setup 
+ [DEBUG] 2023-02-21 11:45:33 EET [minio-local-dev-setup][@mac-02] [50604] working on file: /opt/csi/aws-cli-local-dev-setup/lib/bash/funcs/set-vars-on-suse.func.sh 
+ [DEBUG] 2023-02-21 11:45:33 EET [minio-local-dev-setup][@mac-02] [50604] searching for minio_local_dev_setup , replacing with :: aws_cli_loca_dev_setup 
+ [DEBUG] 2023-02-21 11:45:33 EET [minio-local-dev-setup][@mac-02] [50604] working on file: /opt/csi/aws-cli-local-dev-setup/lib/bash/funcs/set-vars-on-alpine.func.sh 
+ [DEBUG] 2023-02-21 11:45:33 EET [minio-local-dev-setup][@mac-02] [50604] searching for minio_local_dev_setup , replacing with :: aws_cli_loca_dev_setup 
+ [DEBUG] 2023-02-21 11:45:33 EET [minio-local-dev-setup][@mac-02] [50604] working on file: /opt/csi/aws-cli-local-dev-setup/lib/bash/funcs/test-helpers.sh 
+ [DEBUG] 2023-02-21 11:45:33 EET [minio-local-dev-setup][@mac-02] [50604] searching for minio_local_dev_setup , replacing with :: aws_cli_loca_dev_setup 
+ [DEBUG] 2023-02-21 11:45:33 EET [minio-local-dev-setup][@mac-02] [50604] working on file: /opt/csi/aws-cli-local-dev-setup/lib/bash/funcs/zip-me.func.sh 
+ [DEBUG] 2023-02-21 11:45:33 EET [minio-local-dev-setup][@mac-02] [50604] searching for minio_local_dev_setup , replacing with :: aws_cli_loca_dev_setup 
+ [DEBUG] 2023-02-21 11:45:33 EET [minio-local-dev-setup][@mac-02] [50604] working on file: /opt/csi/aws-cli-local-dev-setup/lib/bash/funcs/mac-install-bins.func.sh 
+ [DEBUG] 2023-02-21 11:45:33 EET [minio-local-dev-setup][@mac-02] [50604] searching for minio_local_dev_setup , replacing with :: aws_cli_loca_dev_setup 
+ [DEBUG] 2023-02-21 11:45:33 EET [minio-local-dev-setup][@mac-02] [50604] working on file: /opt/csi/aws-cli-local-dev-setup/lib/bash/funcs/parse-ini-section-vars.func.sh 
+ [DEBUG] 2023-02-21 11:45:33 EET [minio-local-dev-setup][@mac-02] [50604] searching for minio_local_dev_setup , replacing with :: aws_cli_loca_dev_setup 
+ [DEBUG] 2023-02-21 11:45:33 EET [minio-local-dev-setup][@mac-02] [50604] working on file: /opt/csi/aws-cli-local-dev-setup/lib/bash/funcs/morph-dir.func.sh 
+ [DEBUG] 2023-02-21 11:45:33 EET [minio-local-dev-setup][@mac-02] [50604] searching for minio_local_dev_setup , replacing with :: aws_cli_loca_dev_setup 
+ [DEBUG] 2023-02-21 11:45:33 EET [minio-local-dev-setup][@mac-02] [50604] working on file: /opt/csi/aws-cli-local-dev-setup/lib/bash/funcs/set-vars-on-ubuntu.func.sh 
+ [DEBUG] 2023-02-21 11:45:33 EET [minio-local-dev-setup][@mac-02] [50604] searching for minio_local_dev_setup , replacing with :: aws_cli_loca_dev_setup 
+ [DEBUG] 2023-02-21 11:45:33 EET [minio-local-dev-setup][@mac-02] [50604] working on file: /opt/csi/aws-cli-local-dev-setup/lib/bash/funcs/flush-screen.func.sh 
+ [DEBUG] 2023-02-21 11:45:33 EET [minio-local-dev-setup][@mac-02] [50604] searching for minio_local_dev_setup , replacing with :: aws_cli_loca_dev_setup 
+ [DEBUG] 2023-02-21 11:45:33 EET [minio-local-dev-setup][@mac-02] [50604] working on file: /opt/csi/aws-cli-local-dev-setup/lib/bash/funcs/suse-install-bins.func.sh 
+ [DEBUG] 2023-02-21 11:45:33 EET [minio-local-dev-setup][@mac-02] [50604] searching for minio_local_dev_setup , replacing with :: aws_cli_loca_dev_setup 
+ [DEBUG] 2023-02-21 11:45:33 EET [minio-local-dev-setup][@mac-02] [50604] working on file: /opt/csi/aws-cli-local-dev-setup/lib/bash/funcs/set-vars-on-mac.func.sh 
+ [DEBUG] 2023-02-21 11:45:33 EET [minio-local-dev-setup][@mac-02] [50604] searching for minio_local_dev_setup , replacing with :: aws_cli_loca_dev_setup 
+ [DEBUG] 2023-02-21 11:45:33 EET [minio-local-dev-setup][@mac-02] [50604] working on file: /opt/csi/aws-cli-local-dev-setup/lib/bash/funcs/export-json-section-vars.func.sh 
+ [DEBUG] 2023-02-21 11:45:33 EET [minio-local-dev-setup][@mac-02] [50604] searching for minio_local_dev_setup , replacing with :: aws_cli_loca_dev_setup 
+ [DEBUG] 2023-02-21 11:45:33 EET [minio-local-dev-setup][@mac-02] [50604] working on file: /opt/csi/aws-cli-local-dev-setup/src/bash/run/set-vars-on-manjaro.func.sh 
+ [DEBUG] 2023-02-21 11:45:33 EET [minio-local-dev-setup][@mac-02] [50604] searching for minio_local_dev_setup , replacing with :: aws_cli_loca_dev_setup 
+ [DEBUG] 2023-02-21 11:45:34 EET [minio-local-dev-setup][@mac-02] [50604] working on file: /opt/csi/aws-cli-local-dev-setup/src/bash/run/scan-to-list-file.func.sh 
+ [DEBUG] 2023-02-21 11:45:34 EET [minio-local-dev-setup][@mac-02] [50604] searching for minio_local_dev_setup , replacing with :: aws_cli_loca_dev_setup 
+ [DEBUG] 2023-02-21 11:45:34 EET [minio-local-dev-setup][@mac-02] [50604] working on file: /opt/csi/aws-cli-local-dev-setup/src/bash/run/set-vars-on-suse.func.sh 
+ [DEBUG] 2023-02-21 11:45:34 EET [minio-local-dev-setup][@mac-02] [50604] searching for minio_local_dev_setup , replacing with :: aws_cli_loca_dev_setup 
+ [DEBUG] 2023-02-21 11:45:34 EET [minio-local-dev-setup][@mac-02] [50604] working on file: /opt/csi/aws-cli-local-dev-setup/src/bash/run/zip-me-as-module.func.sh 
+ [DEBUG] 2023-02-21 11:45:34 EET [minio-local-dev-setup][@mac-02] [50604] searching for minio_local_dev_setup , replacing with :: aws_cli_loca_dev_setup 
+ [DEBUG] 2023-02-21 11:45:34 EET [minio-local-dev-setup][@mac-02] [50604] working on file: /opt/csi/aws-cli-local-dev-setup/src/bash/run/set-vars-on-alpine.func.sh 
+ [DEBUG] 2023-02-21 11:45:34 EET [minio-local-dev-setup][@mac-02] [50604] searching for minio_local_dev_setup , replacing with :: aws_cli_loca_dev_setup 
+ [DEBUG] 2023-02-21 11:45:34 EET [minio-local-dev-setup][@mac-02] [50604] working on file: /opt/csi/aws-cli-local-dev-setup/src/bash/run/print-usage.func.sh 
+ [DEBUG] 2023-02-21 11:45:34 EET [minio-local-dev-setup][@mac-02] [50604] searching for minio_local_dev_setup , replacing with :: aws_cli_loca_dev_setup 
+ [DEBUG] 2023-02-21 11:45:34 EET [minio-local-dev-setup][@mac-02] [50604] working on file: /opt/csi/aws-cli-local-dev-setup/src/bash/run/run.sh 
+ [DEBUG] 2023-02-21 11:45:34 EET [minio-local-dev-setup][@mac-02] [50604] searching for minio_local_dev_setup , replacing with :: aws_cli_loca_dev_setup 
+ [DEBUG] 2023-02-21 11:45:34 EET [minio-local-dev-setup][@mac-02] [50604] working on file: /opt/csi/aws-cli-local-dev-setup/src/bash/run/morph-module.func.sh 
+ [DEBUG] 2023-02-21 11:45:34 EET [minio-local-dev-setup][@mac-02] [50604] searching for minio_local_dev_setup , replacing with :: aws_cli_loca_dev_setup 
+ [DEBUG] 2023-02-21 11:45:34 EET [minio-local-dev-setup][@mac-02] [50604] working on file: /opt/csi/aws-cli-local-dev-setup/src/bash/run/set-vars-on-ubuntu.func.sh 
+ [DEBUG] 2023-02-21 11:45:34 EET [minio-local-dev-setup][@mac-02] [50604] searching for minio_local_dev_setup , replacing with :: aws_cli_loca_dev_setup 
+ [DEBUG] 2023-02-21 11:45:34 EET [minio-local-dev-setup][@mac-02] [50604] working on file: /opt/csi/aws-cli-local-dev-setup/src/bash/run/set-vars-on-mac.func.sh 
+ [DEBUG] 2023-02-21 11:45:34 EET [minio-local-dev-setup][@mac-02] [50604] searching for minio_local_dev_setup , replacing with :: aws_cli_loca_dev_setup 
+[0;34m ℹ  [INFO] 2023-02-21 11:45:34 EET [minio-local-dev-setup][@mac-02] [50604] STOP :: search and replace in non-binary files  [0m
+[0;34m ℹ  [INFO] 2023-02-21 11:45:34 EET [minio-local-dev-setup][@mac-02] [50604] search and replace in dir and file paths DIR_TO_MORPH:/opt/csi/aws-cli-local-dev-setup  [0m
+[0;34m ℹ  [INFO] 2023-02-21 11:45:35 EET [minio-local-dev-setup][@mac-02] [50604] STOP ::: running function :: do_morph_module  [0m
+[0;32m ✔ [OK]  [OK] 2023-02-21 11:45:35 EET [minio-local-dev-setup][@mac-02] [50604] run's run completed  [0m
+[0;34m ℹ  [INFO] 2023-02-21 11:49:43 EET [minio-local-dev-setup][@mac-02] [53373] START ::: running action :: do_print_usage  [0m
+[0;34m ℹ  [INFO] 2023-02-21 11:49:57 EET [minio-local-dev-setup][@mac-02] [53903] START ::: running action :: do_scan_to_list_file  [0m
+[0;34m ℹ  [INFO] 2023-02-21 11:49:57 EET [minio-local-dev-setup][@mac-02] [53903] produced the /opt/csi/minio-local-dev-setup/cnf/lst/minio-local-dev-setup.include.lst file  [0m
+[0;34m ℹ  [INFO] 2023-02-21 11:49:57 EET [minio-local-dev-setup][@mac-02] [53903] STOP ::: running function :: do_scan_to_list_file  [0m
+[0;32m ✔ [OK]  [OK] 2023-02-21 11:49:57 EET [minio-local-dev-setup][@mac-02] [53903] run's run completed  [0m
+[0;34m ℹ  [INFO] 2023-02-21 11:50:27 EET [minio-local-dev-setup][@mac-02] [54481] START ::: running action :: do_morph_module  [0m
+[0;34m ℹ  [INFO] 2023-02-21 11:50:28 EET [minio-local-dev-setup][@mac-02] [54481] produced the /opt/csi/minio-local-dev-setup.zip file  [0m
+[0;34m ℹ  [INFO] 2023-02-21 11:50:28 EET [minio-local-dev-setup][@mac-02] [54481] DIR_TO_MORPH: /opt/csi/aws-cli-local-dev-setup  [0m
+[0;34m ℹ  [INFO] 2023-02-21 11:50:28 EET [minio-local-dev-setup][@mac-02] [54481] STR_TO_SRCH:"minio-local-dev-setup"  [0m
+[0;34m ℹ  [INFO] 2023-02-21 11:50:28 EET [minio-local-dev-setup][@mac-02] [54481] STR_TO_REPL:"aws-cli-local-dev-setup"  [0m
+[0;34m ℹ  [INFO] 2023-02-21 11:50:30 EET [minio-local-dev-setup][@mac-02] [54481] START :: search and replace in non-binary files  [0m
+ [DEBUG] 2023-02-21 11:50:30 EET [minio-local-dev-setup][@mac-02] [54481] working on file: /opt/csi/aws-cli-local-dev-setup/Makefile 
+ [DEBUG] 2023-02-21 11:50:30 EET [minio-local-dev-setup][@mac-02] [54481] searching for minio-local-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 11:50:30 EET [minio-local-dev-setup][@mac-02] [54481] working on file: /opt/csi/aws-cli-local-dev-setup/.editorconfig 
+ [DEBUG] 2023-02-21 11:50:30 EET [minio-local-dev-setup][@mac-02] [54481] searching for minio-local-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 11:50:30 EET [minio-local-dev-setup][@mac-02] [54481] working on file: /opt/csi/aws-cli-local-dev-setup/cnf/lst/minio-local-dev-setup.exclude.lst 
+ [DEBUG] 2023-02-21 11:50:30 EET [minio-local-dev-setup][@mac-02] [54481] searching for minio-local-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 11:50:30 EET [minio-local-dev-setup][@mac-02] [54481] working on file: /opt/csi/aws-cli-local-dev-setup/cnf/lst/run.sh.exclude.lst 
+ [DEBUG] 2023-02-21 11:50:30 EET [minio-local-dev-setup][@mac-02] [54481] searching for minio-local-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 11:50:30 EET [minio-local-dev-setup][@mac-02] [54481] working on file: /opt/csi/aws-cli-local-dev-setup/cnf/lst/aws-cli-local-dev-setup.exclude.lst 
+ [DEBUG] 2023-02-21 11:50:31 EET [minio-local-dev-setup][@mac-02] [54481] searching for minio-local-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 11:50:31 EET [minio-local-dev-setup][@mac-02] [54481] working on file: /opt/csi/aws-cli-local-dev-setup/cnf/lst/run.sh.include.lst 
+ [DEBUG] 2023-02-21 11:50:31 EET [minio-local-dev-setup][@mac-02] [54481] searching for minio-local-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 11:50:31 EET [minio-local-dev-setup][@mac-02] [54481] working on file: /opt/csi/aws-cli-local-dev-setup/cnf/lst/aws-cli-local-dev-setup.include.lst 
+ [DEBUG] 2023-02-21 11:50:31 EET [minio-local-dev-setup][@mac-02] [54481] searching for minio-local-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 11:50:31 EET [minio-local-dev-setup][@mac-02] [54481] working on file: /opt/csi/aws-cli-local-dev-setup/cnf/lst/minio-local-dev-setup.include.lst 
+ [DEBUG] 2023-02-21 11:50:31 EET [minio-local-dev-setup][@mac-02] [54481] searching for minio-local-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 11:50:31 EET [minio-local-dev-setup][@mac-02] [54481] working on file: /opt/csi/aws-cli-local-dev-setup/lib/bash/funcs/manjaro-install-bins.func.sh 
+ [DEBUG] 2023-02-21 11:50:31 EET [minio-local-dev-setup][@mac-02] [54481] searching for minio-local-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 11:50:31 EET [minio-local-dev-setup][@mac-02] [54481] working on file: /opt/csi/aws-cli-local-dev-setup/lib/bash/funcs/require-var.func.sh 
+ [DEBUG] 2023-02-21 11:50:31 EET [minio-local-dev-setup][@mac-02] [54481] searching for minio-local-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 11:50:31 EET [minio-local-dev-setup][@mac-02] [54481] working on file: /opt/csi/aws-cli-local-dev-setup/lib/bash/funcs/ubuntu-install-bins.func.sh 
+ [DEBUG] 2023-02-21 11:50:31 EET [minio-local-dev-setup][@mac-02] [54481] searching for minio-local-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 11:50:31 EET [minio-local-dev-setup][@mac-02] [54481] working on file: /opt/csi/aws-cli-local-dev-setup/lib/bash/funcs/set-vars-on-suse.func.sh 
+ [DEBUG] 2023-02-21 11:50:31 EET [minio-local-dev-setup][@mac-02] [54481] searching for minio-local-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 11:50:31 EET [minio-local-dev-setup][@mac-02] [54481] working on file: /opt/csi/aws-cli-local-dev-setup/lib/bash/funcs/set-vars-on-alpine.func.sh 
+ [DEBUG] 2023-02-21 11:50:31 EET [minio-local-dev-setup][@mac-02] [54481] searching for minio-local-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 11:50:31 EET [minio-local-dev-setup][@mac-02] [54481] working on file: /opt/csi/aws-cli-local-dev-setup/lib/bash/funcs/test-helpers.sh 
+ [DEBUG] 2023-02-21 11:50:31 EET [minio-local-dev-setup][@mac-02] [54481] searching for minio-local-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 11:50:31 EET [minio-local-dev-setup][@mac-02] [54481] working on file: /opt/csi/aws-cli-local-dev-setup/lib/bash/funcs/zip-me.func.sh 
+ [DEBUG] 2023-02-21 11:50:31 EET [minio-local-dev-setup][@mac-02] [54481] searching for minio-local-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 11:50:31 EET [minio-local-dev-setup][@mac-02] [54481] working on file: /opt/csi/aws-cli-local-dev-setup/lib/bash/funcs/mac-install-bins.func.sh 
+ [DEBUG] 2023-02-21 11:50:31 EET [minio-local-dev-setup][@mac-02] [54481] searching for minio-local-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 11:50:31 EET [minio-local-dev-setup][@mac-02] [54481] working on file: /opt/csi/aws-cli-local-dev-setup/lib/bash/funcs/parse-ini-section-vars.func.sh 
+ [DEBUG] 2023-02-21 11:50:31 EET [minio-local-dev-setup][@mac-02] [54481] searching for minio-local-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 11:50:31 EET [minio-local-dev-setup][@mac-02] [54481] working on file: /opt/csi/aws-cli-local-dev-setup/lib/bash/funcs/set-vars-on-susetumbleed.func.sh 
+ [DEBUG] 2023-02-21 11:50:31 EET [minio-local-dev-setup][@mac-02] [54481] searching for minio-local-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 11:50:31 EET [minio-local-dev-setup][@mac-02] [54481] working on file: /opt/csi/aws-cli-local-dev-setup/lib/bash/funcs/morph-dir.func.sh 
+ [DEBUG] 2023-02-21 11:50:31 EET [minio-local-dev-setup][@mac-02] [54481] searching for minio-local-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 11:50:31 EET [minio-local-dev-setup][@mac-02] [54481] working on file: /opt/csi/aws-cli-local-dev-setup/lib/bash/funcs/set-vars-on-ubuntu.func.sh 
+ [DEBUG] 2023-02-21 11:50:31 EET [minio-local-dev-setup][@mac-02] [54481] searching for minio-local-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 11:50:31 EET [minio-local-dev-setup][@mac-02] [54481] working on file: /opt/csi/aws-cli-local-dev-setup/lib/bash/funcs/flush-screen.func.sh 
+ [DEBUG] 2023-02-21 11:50:31 EET [minio-local-dev-setup][@mac-02] [54481] searching for minio-local-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 11:50:31 EET [minio-local-dev-setup][@mac-02] [54481] working on file: /opt/csi/aws-cli-local-dev-setup/lib/bash/funcs/suse-install-bins.func.sh 
+ [DEBUG] 2023-02-21 11:50:31 EET [minio-local-dev-setup][@mac-02] [54481] searching for minio-local-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 11:50:32 EET [minio-local-dev-setup][@mac-02] [54481] working on file: /opt/csi/aws-cli-local-dev-setup/lib/bash/funcs/set-vars-on-mac.func.sh 
+ [DEBUG] 2023-02-21 11:50:32 EET [minio-local-dev-setup][@mac-02] [54481] searching for minio-local-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 11:50:32 EET [minio-local-dev-setup][@mac-02] [54481] working on file: /opt/csi/aws-cli-local-dev-setup/lib/bash/funcs/export-json-section-vars.func.sh 
+ [DEBUG] 2023-02-21 11:50:32 EET [minio-local-dev-setup][@mac-02] [54481] searching for minio-local-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 11:50:32 EET [minio-local-dev-setup][@mac-02] [54481] working on file: /opt/csi/aws-cli-local-dev-setup/lib/make/demand-var.func.mk 
+ [DEBUG] 2023-02-21 11:50:32 EET [minio-local-dev-setup][@mac-02] [54481] searching for minio-local-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 11:50:32 EET [minio-local-dev-setup][@mac-02] [54481] working on file: /opt/csi/aws-cli-local-dev-setup/lib/make/set-default-shell.mk 
+ [DEBUG] 2023-02-21 11:50:32 EET [minio-local-dev-setup][@mac-02] [54481] searching for minio-local-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 11:50:32 EET [minio-local-dev-setup][@mac-02] [54481] working on file: /opt/csi/aws-cli-local-dev-setup/lib/make/install-img.func.mk 
+ [DEBUG] 2023-02-21 11:50:32 EET [minio-local-dev-setup][@mac-02] [54481] searching for minio-local-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 11:50:32 EET [minio-local-dev-setup][@mac-02] [54481] working on file: /opt/csi/aws-cli-local-dev-setup/lib/make/zip-me.func.mk 
+ [DEBUG] 2023-02-21 11:50:32 EET [minio-local-dev-setup][@mac-02] [54481] searching for minio-local-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 11:50:32 EET [minio-local-dev-setup][@mac-02] [54481] working on file: /opt/csi/aws-cli-local-dev-setup/lib/make/make-help.func.mk 
+ [DEBUG] 2023-02-21 11:50:32 EET [minio-local-dev-setup][@mac-02] [54481] searching for minio-local-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 11:50:32 EET [minio-local-dev-setup][@mac-02] [54481] working on file: /opt/csi/aws-cli-local-dev-setup/lib/make/set-env.func.mk 
+ [DEBUG] 2023-02-21 11:50:32 EET [minio-local-dev-setup][@mac-02] [54481] searching for minio-local-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 11:50:32 EET [minio-local-dev-setup][@mac-02] [54481] working on file: /opt/csi/aws-cli-local-dev-setup/lib/make/prune-docker-system.func.mk 
+ [DEBUG] 2023-02-21 11:50:32 EET [minio-local-dev-setup][@mac-02] [54481] searching for minio-local-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 11:50:32 EET [minio-local-dev-setup][@mac-02] [54481] working on file: /opt/csi/aws-cli-local-dev-setup/lib/make/new-issue.mk 
+ [DEBUG] 2023-02-21 11:50:32 EET [minio-local-dev-setup][@mac-02] [54481] searching for minio-local-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 11:50:32 EET [minio-local-dev-setup][@mac-02] [54481] working on file: /opt/csi/aws-cli-local-dev-setup/src/docker/minio-local-dev-setup/Dockerfile.x86_64 
+ [DEBUG] 2023-02-21 11:50:32 EET [minio-local-dev-setup][@mac-02] [54481] searching for minio-local-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 11:50:32 EET [minio-local-dev-setup][@mac-02] [54481] working on file: /opt/csi/aws-cli-local-dev-setup/src/docker/minio-local-dev-setup/Dockerfile.arm64 
+ [DEBUG] 2023-02-21 11:50:32 EET [minio-local-dev-setup][@mac-02] [54481] searching for minio-local-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 11:50:32 EET [minio-local-dev-setup][@mac-02] [54481] working on file: /opt/csi/aws-cli-local-dev-setup/src/bash/run/set-vars-on-manjaro.func.sh 
+ [DEBUG] 2023-02-21 11:50:32 EET [minio-local-dev-setup][@mac-02] [54481] searching for minio-local-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 11:50:32 EET [minio-local-dev-setup][@mac-02] [54481] working on file: /opt/csi/aws-cli-local-dev-setup/src/bash/run/scan-to-list-file.func.sh 
+ [DEBUG] 2023-02-21 11:50:32 EET [minio-local-dev-setup][@mac-02] [54481] searching for minio-local-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 11:50:32 EET [minio-local-dev-setup][@mac-02] [54481] working on file: /opt/csi/aws-cli-local-dev-setup/src/bash/run/set-vars-on-suse.func.sh 
+ [DEBUG] 2023-02-21 11:50:32 EET [minio-local-dev-setup][@mac-02] [54481] searching for minio-local-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 11:50:32 EET [minio-local-dev-setup][@mac-02] [54481] working on file: /opt/csi/aws-cli-local-dev-setup/src/bash/run/zip-me-as-module.func.sh 
+ [DEBUG] 2023-02-21 11:50:32 EET [minio-local-dev-setup][@mac-02] [54481] searching for minio-local-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 11:50:32 EET [minio-local-dev-setup][@mac-02] [54481] working on file: /opt/csi/aws-cli-local-dev-setup/src/bash/run/set-vars-on-alpine.func.sh 
+ [DEBUG] 2023-02-21 11:50:32 EET [minio-local-dev-setup][@mac-02] [54481] searching for minio-local-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 11:50:32 EET [minio-local-dev-setup][@mac-02] [54481] working on file: /opt/csi/aws-cli-local-dev-setup/src/bash/run/print-usage.func.sh 
+ [DEBUG] 2023-02-21 11:50:32 EET [minio-local-dev-setup][@mac-02] [54481] searching for minio-local-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 11:50:32 EET [minio-local-dev-setup][@mac-02] [54481] working on file: /opt/csi/aws-cli-local-dev-setup/src/bash/run/run.sh 
+ [DEBUG] 2023-02-21 11:50:33 EET [minio-local-dev-setup][@mac-02] [54481] searching for minio-local-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 11:50:33 EET [minio-local-dev-setup][@mac-02] [54481] working on file: /opt/csi/aws-cli-local-dev-setup/src/bash/run/morph-module.func.sh 
+ [DEBUG] 2023-02-21 11:50:33 EET [minio-local-dev-setup][@mac-02] [54481] searching for minio-local-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 11:50:33 EET [minio-local-dev-setup][@mac-02] [54481] working on file: /opt/csi/aws-cli-local-dev-setup/src/bash/run/zip-me-as-component.func.sh 
+ [DEBUG] 2023-02-21 11:50:33 EET [minio-local-dev-setup][@mac-02] [54481] searching for minio-local-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 11:50:33 EET [minio-local-dev-setup][@mac-02] [54481] working on file: /opt/csi/aws-cli-local-dev-setup/src/bash/run/set-vars-on-ubuntu.func.sh 
+ [DEBUG] 2023-02-21 11:50:33 EET [minio-local-dev-setup][@mac-02] [54481] searching for minio-local-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 11:50:33 EET [minio-local-dev-setup][@mac-02] [54481] working on file: /opt/csi/aws-cli-local-dev-setup/src/bash/run/set-vars-on-mac.func.sh 
+ [DEBUG] 2023-02-21 11:50:33 EET [minio-local-dev-setup][@mac-02] [54481] searching for minio-local-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 11:50:33 EET [minio-local-dev-setup][@mac-02] [54481] working on file: /opt/csi/aws-cli-local-dev-setup/src/make/install-minio-local-dev-setup.mk 
+ [DEBUG] 2023-02-21 11:50:33 EET [minio-local-dev-setup][@mac-02] [54481] searching for minio-local-dev-setup , replacing with :: aws-cli-local-dev-setup 
+[0;34m ℹ  [INFO] 2023-02-21 11:50:33 EET [minio-local-dev-setup][@mac-02] [54481] STOP :: search and replace in non-binary files  [0m
+[0;34m ℹ  [INFO] 2023-02-21 11:50:33 EET [minio-local-dev-setup][@mac-02] [54481] search and replace in dir and file paths DIR_TO_MORPH:/opt/csi/aws-cli-local-dev-setup  [0m
+ [DEBUG] 2023-02-21 11:50:34 EET [minio-local-dev-setup][@mac-02] [54481] SRC_MODULE_UNDERSCORED: minio_local_dev_setup 
+ [DEBUG] 2023-02-21 11:50:34 EET [minio-local-dev-setup][@mac-02] [54481] TGT_MODULE_UNDERSCORED: aws_cli_loca_dev_setup 
+[0;34m ℹ  [INFO] 2023-02-21 11:50:35 EET [minio-local-dev-setup][@mac-02] [54481] DIR_TO_MORPH: /opt/csi/aws-cli-local-dev-setup  [0m
+[0;34m ℹ  [INFO] 2023-02-21 11:50:35 EET [minio-local-dev-setup][@mac-02] [54481] STR_TO_SRCH:"minio_local_dev_setup"  [0m
+[0;34m ℹ  [INFO] 2023-02-21 11:50:35 EET [minio-local-dev-setup][@mac-02] [54481] STR_TO_REPL:"aws_cli_loca_dev_setup"  [0m
+[0;34m ℹ  [INFO] 2023-02-21 11:50:37 EET [minio-local-dev-setup][@mac-02] [54481] START :: search and replace in non-binary files  [0m
+ [DEBUG] 2023-02-21 11:50:37 EET [minio-local-dev-setup][@mac-02] [54481] working on file: /opt/csi/aws-cli-local-dev-setup/Makefile 
+ [DEBUG] 2023-02-21 11:50:37 EET [minio-local-dev-setup][@mac-02] [54481] searching for minio_local_dev_setup , replacing with :: aws_cli_loca_dev_setup 
+ [DEBUG] 2023-02-21 11:50:37 EET [minio-local-dev-setup][@mac-02] [54481] working on file: /opt/csi/aws-cli-local-dev-setup/.editorconfig 
+ [DEBUG] 2023-02-21 11:50:37 EET [minio-local-dev-setup][@mac-02] [54481] searching for minio_local_dev_setup , replacing with :: aws_cli_loca_dev_setup 
+ [DEBUG] 2023-02-21 11:50:37 EET [minio-local-dev-setup][@mac-02] [54481] working on file: /opt/csi/aws-cli-local-dev-setup/cnf/lst/minio-local-dev-setup.exclude.lst 
+ [DEBUG] 2023-02-21 11:50:37 EET [minio-local-dev-setup][@mac-02] [54481] searching for minio_local_dev_setup , replacing with :: aws_cli_loca_dev_setup 
+ [DEBUG] 2023-02-21 11:50:37 EET [minio-local-dev-setup][@mac-02] [54481] working on file: /opt/csi/aws-cli-local-dev-setup/cnf/lst/run.sh.exclude.lst 
+ [DEBUG] 2023-02-21 11:50:37 EET [minio-local-dev-setup][@mac-02] [54481] searching for minio_local_dev_setup , replacing with :: aws_cli_loca_dev_setup 
+ [DEBUG] 2023-02-21 11:50:37 EET [minio-local-dev-setup][@mac-02] [54481] working on file: /opt/csi/aws-cli-local-dev-setup/cnf/lst/aws-cli-local-dev-setup.exclude.lst 
+ [DEBUG] 2023-02-21 11:50:37 EET [minio-local-dev-setup][@mac-02] [54481] searching for minio_local_dev_setup , replacing with :: aws_cli_loca_dev_setup 
+ [DEBUG] 2023-02-21 11:50:37 EET [minio-local-dev-setup][@mac-02] [54481] working on file: /opt/csi/aws-cli-local-dev-setup/cnf/lst/run.sh.include.lst 
+ [DEBUG] 2023-02-21 11:50:37 EET [minio-local-dev-setup][@mac-02] [54481] searching for minio_local_dev_setup , replacing with :: aws_cli_loca_dev_setup 
+ [DEBUG] 2023-02-21 11:50:38 EET [minio-local-dev-setup][@mac-02] [54481] working on file: /opt/csi/aws-cli-local-dev-setup/cnf/lst/aws-cli-local-dev-setup.include.lst 
+ [DEBUG] 2023-02-21 11:50:38 EET [minio-local-dev-setup][@mac-02] [54481] searching for minio_local_dev_setup , replacing with :: aws_cli_loca_dev_setup 
+ [DEBUG] 2023-02-21 11:50:38 EET [minio-local-dev-setup][@mac-02] [54481] working on file: /opt/csi/aws-cli-local-dev-setup/cnf/lst/minio-local-dev-setup.include.lst 
+ [DEBUG] 2023-02-21 11:50:38 EET [minio-local-dev-setup][@mac-02] [54481] searching for minio_local_dev_setup , replacing with :: aws_cli_loca_dev_setup 
+ [DEBUG] 2023-02-21 11:50:38 EET [minio-local-dev-setup][@mac-02] [54481] working on file: /opt/csi/aws-cli-local-dev-setup/lib/bash/funcs/manjaro-install-bins.func.sh 
+ [DEBUG] 2023-02-21 11:50:38 EET [minio-local-dev-setup][@mac-02] [54481] searching for minio_local_dev_setup , replacing with :: aws_cli_loca_dev_setup 
+ [DEBUG] 2023-02-21 11:50:38 EET [minio-local-dev-setup][@mac-02] [54481] working on file: /opt/csi/aws-cli-local-dev-setup/lib/bash/funcs/require-var.func.sh 
+ [DEBUG] 2023-02-21 11:50:38 EET [minio-local-dev-setup][@mac-02] [54481] searching for minio_local_dev_setup , replacing with :: aws_cli_loca_dev_setup 
+ [DEBUG] 2023-02-21 11:50:38 EET [minio-local-dev-setup][@mac-02] [54481] working on file: /opt/csi/aws-cli-local-dev-setup/lib/bash/funcs/ubuntu-install-bins.func.sh 
+ [DEBUG] 2023-02-21 11:50:38 EET [minio-local-dev-setup][@mac-02] [54481] searching for minio_local_dev_setup , replacing with :: aws_cli_loca_dev_setup 
+ [DEBUG] 2023-02-21 11:50:38 EET [minio-local-dev-setup][@mac-02] [54481] working on file: /opt/csi/aws-cli-local-dev-setup/lib/bash/funcs/set-vars-on-suse.func.sh 
+ [DEBUG] 2023-02-21 11:50:38 EET [minio-local-dev-setup][@mac-02] [54481] searching for minio_local_dev_setup , replacing with :: aws_cli_loca_dev_setup 
+ [DEBUG] 2023-02-21 11:50:38 EET [minio-local-dev-setup][@mac-02] [54481] working on file: /opt/csi/aws-cli-local-dev-setup/lib/bash/funcs/set-vars-on-alpine.func.sh 
+ [DEBUG] 2023-02-21 11:50:38 EET [minio-local-dev-setup][@mac-02] [54481] searching for minio_local_dev_setup , replacing with :: aws_cli_loca_dev_setup 
+ [DEBUG] 2023-02-21 11:50:38 EET [minio-local-dev-setup][@mac-02] [54481] working on file: /opt/csi/aws-cli-local-dev-setup/lib/bash/funcs/test-helpers.sh 
+ [DEBUG] 2023-02-21 11:50:38 EET [minio-local-dev-setup][@mac-02] [54481] searching for minio_local_dev_setup , replacing with :: aws_cli_loca_dev_setup 
+ [DEBUG] 2023-02-21 11:50:38 EET [minio-local-dev-setup][@mac-02] [54481] working on file: /opt/csi/aws-cli-local-dev-setup/lib/bash/funcs/zip-me.func.sh 
+ [DEBUG] 2023-02-21 11:50:38 EET [minio-local-dev-setup][@mac-02] [54481] searching for minio_local_dev_setup , replacing with :: aws_cli_loca_dev_setup 
+ [DEBUG] 2023-02-21 11:50:38 EET [minio-local-dev-setup][@mac-02] [54481] working on file: /opt/csi/aws-cli-local-dev-setup/lib/bash/funcs/mac-install-bins.func.sh 
+ [DEBUG] 2023-02-21 11:50:38 EET [minio-local-dev-setup][@mac-02] [54481] searching for minio_local_dev_setup , replacing with :: aws_cli_loca_dev_setup 
+ [DEBUG] 2023-02-21 11:50:38 EET [minio-local-dev-setup][@mac-02] [54481] working on file: /opt/csi/aws-cli-local-dev-setup/lib/bash/funcs/parse-ini-section-vars.func.sh 
+ [DEBUG] 2023-02-21 11:50:38 EET [minio-local-dev-setup][@mac-02] [54481] searching for minio_local_dev_setup , replacing with :: aws_cli_loca_dev_setup 
+ [DEBUG] 2023-02-21 11:50:38 EET [minio-local-dev-setup][@mac-02] [54481] working on file: /opt/csi/aws-cli-local-dev-setup/lib/bash/funcs/set-vars-on-susetumbleed.func.sh 
+ [DEBUG] 2023-02-21 11:50:38 EET [minio-local-dev-setup][@mac-02] [54481] searching for minio_local_dev_setup , replacing with :: aws_cli_loca_dev_setup 
+ [DEBUG] 2023-02-21 11:50:38 EET [minio-local-dev-setup][@mac-02] [54481] working on file: /opt/csi/aws-cli-local-dev-setup/lib/bash/funcs/morph-dir.func.sh 
+ [DEBUG] 2023-02-21 11:50:38 EET [minio-local-dev-setup][@mac-02] [54481] searching for minio_local_dev_setup , replacing with :: aws_cli_loca_dev_setup 
+ [DEBUG] 2023-02-21 11:50:38 EET [minio-local-dev-setup][@mac-02] [54481] working on file: /opt/csi/aws-cli-local-dev-setup/lib/bash/funcs/set-vars-on-ubuntu.func.sh 
+ [DEBUG] 2023-02-21 11:50:38 EET [minio-local-dev-setup][@mac-02] [54481] searching for minio_local_dev_setup , replacing with :: aws_cli_loca_dev_setup 
+ [DEBUG] 2023-02-21 11:50:38 EET [minio-local-dev-setup][@mac-02] [54481] working on file: /opt/csi/aws-cli-local-dev-setup/lib/bash/funcs/flush-screen.func.sh 
+ [DEBUG] 2023-02-21 11:50:38 EET [minio-local-dev-setup][@mac-02] [54481] searching for minio_local_dev_setup , replacing with :: aws_cli_loca_dev_setup 
+ [DEBUG] 2023-02-21 11:50:38 EET [minio-local-dev-setup][@mac-02] [54481] working on file: /opt/csi/aws-cli-local-dev-setup/lib/bash/funcs/suse-install-bins.func.sh 
+ [DEBUG] 2023-02-21 11:50:38 EET [minio-local-dev-setup][@mac-02] [54481] searching for minio_local_dev_setup , replacing with :: aws_cli_loca_dev_setup 
+ [DEBUG] 2023-02-21 11:50:38 EET [minio-local-dev-setup][@mac-02] [54481] working on file: /opt/csi/aws-cli-local-dev-setup/lib/bash/funcs/set-vars-on-mac.func.sh 
+ [DEBUG] 2023-02-21 11:50:38 EET [minio-local-dev-setup][@mac-02] [54481] searching for minio_local_dev_setup , replacing with :: aws_cli_loca_dev_setup 
+ [DEBUG] 2023-02-21 11:50:38 EET [minio-local-dev-setup][@mac-02] [54481] working on file: /opt/csi/aws-cli-local-dev-setup/lib/bash/funcs/export-json-section-vars.func.sh 
+ [DEBUG] 2023-02-21 11:50:38 EET [minio-local-dev-setup][@mac-02] [54481] searching for minio_local_dev_setup , replacing with :: aws_cli_loca_dev_setup 
+ [DEBUG] 2023-02-21 11:50:39 EET [minio-local-dev-setup][@mac-02] [54481] working on file: /opt/csi/aws-cli-local-dev-setup/lib/make/demand-var.func.mk 
+ [DEBUG] 2023-02-21 11:50:39 EET [minio-local-dev-setup][@mac-02] [54481] searching for minio_local_dev_setup , replacing with :: aws_cli_loca_dev_setup 
+ [DEBUG] 2023-02-21 11:50:39 EET [minio-local-dev-setup][@mac-02] [54481] working on file: /opt/csi/aws-cli-local-dev-setup/lib/make/set-default-shell.mk 
+ [DEBUG] 2023-02-21 11:50:39 EET [minio-local-dev-setup][@mac-02] [54481] searching for minio_local_dev_setup , replacing with :: aws_cli_loca_dev_setup 
+ [DEBUG] 2023-02-21 11:50:39 EET [minio-local-dev-setup][@mac-02] [54481] working on file: /opt/csi/aws-cli-local-dev-setup/lib/make/install-img.func.mk 
+ [DEBUG] 2023-02-21 11:50:39 EET [minio-local-dev-setup][@mac-02] [54481] searching for minio_local_dev_setup , replacing with :: aws_cli_loca_dev_setup 
+ [DEBUG] 2023-02-21 11:50:39 EET [minio-local-dev-setup][@mac-02] [54481] working on file: /opt/csi/aws-cli-local-dev-setup/lib/make/zip-me.func.mk 
+ [DEBUG] 2023-02-21 11:50:39 EET [minio-local-dev-setup][@mac-02] [54481] searching for minio_local_dev_setup , replacing with :: aws_cli_loca_dev_setup 
+ [DEBUG] 2023-02-21 11:50:39 EET [minio-local-dev-setup][@mac-02] [54481] working on file: /opt/csi/aws-cli-local-dev-setup/lib/make/make-help.func.mk 
+ [DEBUG] 2023-02-21 11:50:39 EET [minio-local-dev-setup][@mac-02] [54481] searching for minio_local_dev_setup , replacing with :: aws_cli_loca_dev_setup 
+ [DEBUG] 2023-02-21 11:50:39 EET [minio-local-dev-setup][@mac-02] [54481] working on file: /opt/csi/aws-cli-local-dev-setup/lib/make/set-env.func.mk 
+ [DEBUG] 2023-02-21 11:50:39 EET [minio-local-dev-setup][@mac-02] [54481] searching for minio_local_dev_setup , replacing with :: aws_cli_loca_dev_setup 
+ [DEBUG] 2023-02-21 11:50:39 EET [minio-local-dev-setup][@mac-02] [54481] working on file: /opt/csi/aws-cli-local-dev-setup/lib/make/prune-docker-system.func.mk 
+ [DEBUG] 2023-02-21 11:50:39 EET [minio-local-dev-setup][@mac-02] [54481] searching for minio_local_dev_setup , replacing with :: aws_cli_loca_dev_setup 
+ [DEBUG] 2023-02-21 11:50:39 EET [minio-local-dev-setup][@mac-02] [54481] working on file: /opt/csi/aws-cli-local-dev-setup/lib/make/new-issue.mk 
+ [DEBUG] 2023-02-21 11:50:39 EET [minio-local-dev-setup][@mac-02] [54481] searching for minio_local_dev_setup , replacing with :: aws_cli_loca_dev_setup 
+ [DEBUG] 2023-02-21 11:50:39 EET [minio-local-dev-setup][@mac-02] [54481] working on file: /opt/csi/aws-cli-local-dev-setup/src/docker/aws-cli-local-dev-setup/Dockerfile.x86_64 
+ [DEBUG] 2023-02-21 11:50:39 EET [minio-local-dev-setup][@mac-02] [54481] searching for minio_local_dev_setup , replacing with :: aws_cli_loca_dev_setup 
+ [DEBUG] 2023-02-21 11:50:39 EET [minio-local-dev-setup][@mac-02] [54481] working on file: /opt/csi/aws-cli-local-dev-setup/src/docker/aws-cli-local-dev-setup/Dockerfile.arm64 
+ [DEBUG] 2023-02-21 11:50:39 EET [minio-local-dev-setup][@mac-02] [54481] searching for minio_local_dev_setup , replacing with :: aws_cli_loca_dev_setup 
+ [DEBUG] 2023-02-21 11:50:39 EET [minio-local-dev-setup][@mac-02] [54481] working on file: /opt/csi/aws-cli-local-dev-setup/src/bash/run/set-vars-on-manjaro.func.sh 
+ [DEBUG] 2023-02-21 11:50:39 EET [minio-local-dev-setup][@mac-02] [54481] searching for minio_local_dev_setup , replacing with :: aws_cli_loca_dev_setup 
+ [DEBUG] 2023-02-21 11:50:39 EET [minio-local-dev-setup][@mac-02] [54481] working on file: /opt/csi/aws-cli-local-dev-setup/src/bash/run/scan-to-list-file.func.sh 
+ [DEBUG] 2023-02-21 11:50:39 EET [minio-local-dev-setup][@mac-02] [54481] searching for minio_local_dev_setup , replacing with :: aws_cli_loca_dev_setup 
+ [DEBUG] 2023-02-21 11:50:39 EET [minio-local-dev-setup][@mac-02] [54481] working on file: /opt/csi/aws-cli-local-dev-setup/src/bash/run/set-vars-on-suse.func.sh 
+ [DEBUG] 2023-02-21 11:50:39 EET [minio-local-dev-setup][@mac-02] [54481] searching for minio_local_dev_setup , replacing with :: aws_cli_loca_dev_setup 
+ [DEBUG] 2023-02-21 11:50:39 EET [minio-local-dev-setup][@mac-02] [54481] working on file: /opt/csi/aws-cli-local-dev-setup/src/bash/run/zip-me-as-module.func.sh 
+ [DEBUG] 2023-02-21 11:50:39 EET [minio-local-dev-setup][@mac-02] [54481] searching for minio_local_dev_setup , replacing with :: aws_cli_loca_dev_setup 
+ [DEBUG] 2023-02-21 11:50:39 EET [minio-local-dev-setup][@mac-02] [54481] working on file: /opt/csi/aws-cli-local-dev-setup/src/bash/run/set-vars-on-alpine.func.sh 
+ [DEBUG] 2023-02-21 11:50:39 EET [minio-local-dev-setup][@mac-02] [54481] searching for minio_local_dev_setup , replacing with :: aws_cli_loca_dev_setup 
+ [DEBUG] 2023-02-21 11:50:39 EET [minio-local-dev-setup][@mac-02] [54481] working on file: /opt/csi/aws-cli-local-dev-setup/src/bash/run/print-usage.func.sh 
+ [DEBUG] 2023-02-21 11:50:39 EET [minio-local-dev-setup][@mac-02] [54481] searching for minio_local_dev_setup , replacing with :: aws_cli_loca_dev_setup 
+ [DEBUG] 2023-02-21 11:50:39 EET [minio-local-dev-setup][@mac-02] [54481] working on file: /opt/csi/aws-cli-local-dev-setup/src/bash/run/run.sh 
+ [DEBUG] 2023-02-21 11:50:39 EET [minio-local-dev-setup][@mac-02] [54481] searching for minio_local_dev_setup , replacing with :: aws_cli_loca_dev_setup 
+ [DEBUG] 2023-02-21 11:50:39 EET [minio-local-dev-setup][@mac-02] [54481] working on file: /opt/csi/aws-cli-local-dev-setup/src/bash/run/morph-module.func.sh 
+ [DEBUG] 2023-02-21 11:50:39 EET [minio-local-dev-setup][@mac-02] [54481] searching for minio_local_dev_setup , replacing with :: aws_cli_loca_dev_setup 
+ [DEBUG] 2023-02-21 11:50:39 EET [minio-local-dev-setup][@mac-02] [54481] working on file: /opt/csi/aws-cli-local-dev-setup/src/bash/run/zip-me-as-component.func.sh 
+ [DEBUG] 2023-02-21 11:50:40 EET [minio-local-dev-setup][@mac-02] [54481] searching for minio_local_dev_setup , replacing with :: aws_cli_loca_dev_setup 
+ [DEBUG] 2023-02-21 11:50:40 EET [minio-local-dev-setup][@mac-02] [54481] working on file: /opt/csi/aws-cli-local-dev-setup/src/bash/run/set-vars-on-ubuntu.func.sh 
+ [DEBUG] 2023-02-21 11:50:40 EET [minio-local-dev-setup][@mac-02] [54481] searching for minio_local_dev_setup , replacing with :: aws_cli_loca_dev_setup 
+ [DEBUG] 2023-02-21 11:50:40 EET [minio-local-dev-setup][@mac-02] [54481] working on file: /opt/csi/aws-cli-local-dev-setup/src/bash/run/set-vars-on-mac.func.sh 
+ [DEBUG] 2023-02-21 11:50:40 EET [minio-local-dev-setup][@mac-02] [54481] searching for minio_local_dev_setup , replacing with :: aws_cli_loca_dev_setup 
+ [DEBUG] 2023-02-21 11:50:40 EET [minio-local-dev-setup][@mac-02] [54481] working on file: /opt/csi/aws-cli-local-dev-setup/src/make/install-aws-cli-local-dev-setup.mk 
+ [DEBUG] 2023-02-21 11:50:40 EET [minio-local-dev-setup][@mac-02] [54481] searching for minio_local_dev_setup , replacing with :: aws_cli_loca_dev_setup 
+[0;34m ℹ  [INFO] 2023-02-21 11:50:40 EET [minio-local-dev-setup][@mac-02] [54481] STOP :: search and replace in non-binary files  [0m
+[0;34m ℹ  [INFO] 2023-02-21 11:50:40 EET [minio-local-dev-setup][@mac-02] [54481] search and replace in dir and file paths DIR_TO_MORPH:/opt/csi/aws-cli-local-dev-setup  [0m
+[0;34m ℹ  [INFO] 2023-02-21 11:50:40 EET [minio-local-dev-setup][@mac-02] [54481] STOP ::: running function :: do_morph_module  [0m
+[0;32m ✔ [OK]  [OK] 2023-02-21 11:50:40 EET [minio-local-dev-setup][@mac-02] [54481] run's run completed  [0m
+[0;34m ℹ  [INFO] 2023-02-21 12:10:46 EET [minio-local-dev-setup][@mac-02] [60643] START ::: running action :: do_morph_dir  [0m
+[0;34m ℹ  [INFO] 2023-02-21 12:11:01 EET [minio-local-dev-setup][@mac-02] [61167] START ::: running action :: do_morph_dir  [0m
+[0;34m ℹ  [INFO] 2023-02-21 12:11:01 EET [minio-local-dev-setup][@mac-02] [61167] DIR_TO_MORPH: /opt/csi/minio-local-dev-setup  [0m
+[0;34m ℹ  [INFO] 2023-02-21 12:11:01 EET [minio-local-dev-setup][@mac-02] [61167] STR_TO_SRCH:"aws-cli-local-dev-setup"  [0m
+[0;34m ℹ  [INFO] 2023-02-21 12:11:01 EET [minio-local-dev-setup][@mac-02] [61167] STR_TO_REPL:"aws-cli-local-dev-setup"  [0m
+[0;34m ℹ  [INFO] 2023-02-21 12:11:03 EET [minio-local-dev-setup][@mac-02] [61167] START :: search and replace in non-binary files  [0m
+ [DEBUG] 2023-02-21 12:11:04 EET [minio-local-dev-setup][@mac-02] [61167] working on file: /opt/csi/minio-local-dev-setup/Makefile 
+ [DEBUG] 2023-02-21 12:11:04 EET [minio-local-dev-setup][@mac-02] [61167] searching for aws-cli-local-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 12:11:04 EET [minio-local-dev-setup][@mac-02] [61167] working on file: /opt/csi/minio-local-dev-setup/dat/log/bash/minio-local-dev-setup.20230221.log 
+ [DEBUG] 2023-02-21 12:11:05 EET [minio-local-dev-setup][@mac-02] [61167] searching for aws-cli-local-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 12:11:05 EET [minio-local-dev-setup][@mac-02] [61167] working on file: /opt/csi/minio-local-dev-setup/docker-init-minio-local-dev-setup.sh 
+ [DEBUG] 2023-02-21 12:11:05 EET [minio-local-dev-setup][@mac-02] [61167] searching for aws-cli-loca-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 12:11:05 EET [minio-local-dev-setup][@mac-02] [61167] working on file: /opt/csi/minio-local-dev-setup/.editorconfig 
+ [DEBUG] 2023-02-21 12:11:05 EET [minio-local-dev-setup][@mac-02] [61167] searching for aws-cli-loca-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 12:11:05 EET [minio-local-dev-setup][@mac-02] [61167] working on file: /opt/csi/minio-local-dev-setup/cnf/lst/minio-local-dev-setup.exclude.lst 
+ [DEBUG] 2023-02-21 12:11:05 EET [minio-local-dev-setup][@mac-02] [61167] searching for aws-cli-loca-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 12:11:05 EET [minio-local-dev-setup][@mac-02] [61167] working on file: /opt/csi/minio-local-dev-setup/cnf/lst/run.sh.exclude.lst 
+ [DEBUG] 2023-02-21 12:11:05 EET [minio-local-dev-setup][@mac-02] [61167] searching for aws-cli-loca-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 12:11:05 EET [minio-local-dev-setup][@mac-02] [61167] working on file: /opt/csi/minio-local-dev-setup/cnf/lst/run.sh.include.lst 
+ [DEBUG] 2023-02-21 12:11:05 EET [minio-local-dev-setup][@mac-02] [61167] searching for aws-cli-loca-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 12:11:05 EET [minio-local-dev-setup][@mac-02] [61167] working on file: /opt/csi/minio-local-dev-setup/cnf/lst/minio-local-dev-setup.include.lst 
+ [DEBUG] 2023-02-21 12:11:05 EET [minio-local-dev-setup][@mac-02] [61167] searching for aws-cli-loca-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 12:11:05 EET [minio-local-dev-setup][@mac-02] [61167] working on file: /opt/csi/minio-local-dev-setup/lib/bash/funcs/manjaro-install-bins.func.sh 
+ [DEBUG] 2023-02-21 12:11:05 EET [minio-local-dev-setup][@mac-02] [61167] searching for aws-cli-loca-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 12:11:05 EET [minio-local-dev-setup][@mac-02] [61167] working on file: /opt/csi/minio-local-dev-setup/lib/bash/funcs/require-var.func.sh 
+ [DEBUG] 2023-02-21 12:11:05 EET [minio-local-dev-setup][@mac-02] [61167] searching for aws-cli-loca-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 12:11:05 EET [minio-local-dev-setup][@mac-02] [61167] working on file: /opt/csi/minio-local-dev-setup/lib/bash/funcs/ubuntu-install-bins.func.sh 
+ [DEBUG] 2023-02-21 12:11:05 EET [minio-local-dev-setup][@mac-02] [61167] searching for aws-cli-loca-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 12:11:05 EET [minio-local-dev-setup][@mac-02] [61167] working on file: /opt/csi/minio-local-dev-setup/lib/bash/funcs/set-vars-on-suse.func.sh 
+ [DEBUG] 2023-02-21 12:11:05 EET [minio-local-dev-setup][@mac-02] [61167] searching for aws-cli-loca-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 12:11:05 EET [minio-local-dev-setup][@mac-02] [61167] working on file: /opt/csi/minio-local-dev-setup/lib/bash/funcs/set-vars-on-alpine.func.sh 
+ [DEBUG] 2023-02-21 12:11:05 EET [minio-local-dev-setup][@mac-02] [61167] searching for aws-cli-loca-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 12:11:05 EET [minio-local-dev-setup][@mac-02] [61167] working on file: /opt/csi/minio-local-dev-setup/lib/bash/funcs/test-helpers.sh 
+ [DEBUG] 2023-02-21 12:11:05 EET [minio-local-dev-setup][@mac-02] [61167] searching for aws-cli-loca-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 12:11:05 EET [minio-local-dev-setup][@mac-02] [61167] working on file: /opt/csi/minio-local-dev-setup/lib/bash/funcs/zip-me.func.sh 
+ [DEBUG] 2023-02-21 12:11:05 EET [minio-local-dev-setup][@mac-02] [61167] searching for aws-cli-loca-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 12:11:05 EET [minio-local-dev-setup][@mac-02] [61167] working on file: /opt/csi/minio-local-dev-setup/lib/bash/funcs/mac-install-bins.func.sh 
+ [DEBUG] 2023-02-21 12:11:05 EET [minio-local-dev-setup][@mac-02] [61167] searching for aws-cli-loca-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 12:11:05 EET [minio-local-dev-setup][@mac-02] [61167] working on file: /opt/csi/minio-local-dev-setup/lib/bash/funcs/parse-ini-section-vars.func.sh 
+ [DEBUG] 2023-02-21 12:11:05 EET [minio-local-dev-setup][@mac-02] [61167] searching for aws-cli-loca-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 12:11:05 EET [minio-local-dev-setup][@mac-02] [61167] working on file: /opt/csi/minio-local-dev-setup/lib/bash/funcs/set-vars-on-susetumbleed.func.sh 
+ [DEBUG] 2023-02-21 12:11:05 EET [minio-local-dev-setup][@mac-02] [61167] searching for aws-cli-loca-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 12:11:05 EET [minio-local-dev-setup][@mac-02] [61167] working on file: /opt/csi/minio-local-dev-setup/lib/bash/funcs/morph-dir.func.sh 
+ [DEBUG] 2023-02-21 12:11:05 EET [minio-local-dev-setup][@mac-02] [61167] searching for aws-cli-loca-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 12:11:05 EET [minio-local-dev-setup][@mac-02] [61167] working on file: /opt/csi/minio-local-dev-setup/lib/bash/funcs/set-vars-on-ubuntu.func.sh 
+ [DEBUG] 2023-02-21 12:11:05 EET [minio-local-dev-setup][@mac-02] [61167] searching for aws-cli-loca-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 12:11:06 EET [minio-local-dev-setup][@mac-02] [61167] working on file: /opt/csi/minio-local-dev-setup/lib/bash/funcs/flush-screen.func.sh 
+ [DEBUG] 2023-02-21 12:11:06 EET [minio-local-dev-setup][@mac-02] [61167] searching for aws-cli-loca-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 12:11:06 EET [minio-local-dev-setup][@mac-02] [61167] working on file: /opt/csi/minio-local-dev-setup/lib/bash/funcs/suse-install-bins.func.sh 
+ [DEBUG] 2023-02-21 12:11:06 EET [minio-local-dev-setup][@mac-02] [61167] searching for aws-cli-loca-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 12:11:06 EET [minio-local-dev-setup][@mac-02] [61167] working on file: /opt/csi/minio-local-dev-setup/lib/bash/funcs/set-vars-on-mac.func.sh 
+ [DEBUG] 2023-02-21 12:11:06 EET [minio-local-dev-setup][@mac-02] [61167] searching for aws-cli-loca-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 12:11:06 EET [minio-local-dev-setup][@mac-02] [61167] working on file: /opt/csi/minio-local-dev-setup/lib/bash/funcs/export-json-section-vars.func.sh 
+ [DEBUG] 2023-02-21 12:11:06 EET [minio-local-dev-setup][@mac-02] [61167] searching for aws-cli-loca-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 12:11:06 EET [minio-local-dev-setup][@mac-02] [61167] working on file: /opt/csi/minio-local-dev-setup/lib/make/demand-var.func.mk 
+ [DEBUG] 2023-02-21 12:11:06 EET [minio-local-dev-setup][@mac-02] [61167] searching for aws-cli-loca-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 12:11:06 EET [minio-local-dev-setup][@mac-02] [61167] working on file: /opt/csi/minio-local-dev-setup/lib/make/set-default-shell.mk 
+ [DEBUG] 2023-02-21 12:11:06 EET [minio-local-dev-setup][@mac-02] [61167] searching for aws-cli-loca-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 12:11:06 EET [minio-local-dev-setup][@mac-02] [61167] working on file: /opt/csi/minio-local-dev-setup/lib/make/install-img.func.mk 
+ [DEBUG] 2023-02-21 12:11:06 EET [minio-local-dev-setup][@mac-02] [61167] searching for aws-cli-loca-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 12:11:06 EET [minio-local-dev-setup][@mac-02] [61167] working on file: /opt/csi/minio-local-dev-setup/lib/make/zip-me.func.mk 
+ [DEBUG] 2023-02-21 12:11:06 EET [minio-local-dev-setup][@mac-02] [61167] searching for aws-cli-loca-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 12:11:06 EET [minio-local-dev-setup][@mac-02] [61167] working on file: /opt/csi/minio-local-dev-setup/lib/make/make-help.func.mk 
+ [DEBUG] 2023-02-21 12:11:06 EET [minio-local-dev-setup][@mac-02] [61167] searching for aws-cli-loca-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 12:11:06 EET [minio-local-dev-setup][@mac-02] [61167] working on file: /opt/csi/minio-local-dev-setup/lib/make/set-env.func.mk 
+ [DEBUG] 2023-02-21 12:11:06 EET [minio-local-dev-setup][@mac-02] [61167] searching for aws-cli-loca-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 12:11:06 EET [minio-local-dev-setup][@mac-02] [61167] working on file: /opt/csi/minio-local-dev-setup/lib/make/prune-docker-system.func.mk 
+ [DEBUG] 2023-02-21 12:11:06 EET [minio-local-dev-setup][@mac-02] [61167] searching for aws-cli-loca-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 12:11:06 EET [minio-local-dev-setup][@mac-02] [61167] working on file: /opt/csi/minio-local-dev-setup/lib/make/new-issue.mk 
+ [DEBUG] 2023-02-21 12:11:06 EET [minio-local-dev-setup][@mac-02] [61167] searching for aws-cli-loca-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 12:11:06 EET [minio-local-dev-setup][@mac-02] [61167] working on file: /opt/csi/minio-local-dev-setup/.git/config 
+ [DEBUG] 2023-02-21 12:11:06 EET [minio-local-dev-setup][@mac-02] [61167] searching for aws-cli-loca-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 12:11:06 EET [minio-local-dev-setup][@mac-02] [61167] working on file: /opt/csi/minio-local-dev-setup/.git/HEAD 
+ [DEBUG] 2023-02-21 12:11:06 EET [minio-local-dev-setup][@mac-02] [61167] searching for aws-cli-loca-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 12:11:06 EET [minio-local-dev-setup][@mac-02] [61167] working on file: /opt/csi/minio-local-dev-setup/.git/info/exclude 
+ [DEBUG] 2023-02-21 12:11:06 EET [minio-local-dev-setup][@mac-02] [61167] searching for aws-cli-loca-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 12:11:06 EET [minio-local-dev-setup][@mac-02] [61167] working on file: /opt/csi/minio-local-dev-setup/.git/logs/HEAD 
+ [DEBUG] 2023-02-21 12:11:06 EET [minio-local-dev-setup][@mac-02] [61167] searching for aws-cli-loca-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 12:11:06 EET [minio-local-dev-setup][@mac-02] [61167] working on file: /opt/csi/minio-local-dev-setup/.git/logs/refs/heads/master 
+ [DEBUG] 2023-02-21 12:11:06 EET [minio-local-dev-setup][@mac-02] [61167] searching for aws-cli-loca-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 12:11:06 EET [minio-local-dev-setup][@mac-02] [61167] working on file: /opt/csi/minio-local-dev-setup/.git/logs/refs/remotes/origin/master 
+ [DEBUG] 2023-02-21 12:11:06 EET [minio-local-dev-setup][@mac-02] [61167] searching for aws-cli-loca-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 12:11:06 EET [minio-local-dev-setup][@mac-02] [61167] working on file: /opt/csi/minio-local-dev-setup/.git/description 
+ [DEBUG] 2023-02-21 12:11:06 EET [minio-local-dev-setup][@mac-02] [61167] searching for aws-cli-loca-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 12:11:06 EET [minio-local-dev-setup][@mac-02] [61167] working on file: /opt/csi/minio-local-dev-setup/.git/hooks/commit-msg.sample 
+ [DEBUG] 2023-02-21 12:11:07 EET [minio-local-dev-setup][@mac-02] [61167] searching for aws-cli-loca-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 12:11:07 EET [minio-local-dev-setup][@mac-02] [61167] working on file: /opt/csi/minio-local-dev-setup/.git/hooks/pre-rebase.sample 
+ [DEBUG] 2023-02-21 12:11:07 EET [minio-local-dev-setup][@mac-02] [61167] searching for aws-cli-loca-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 12:11:07 EET [minio-local-dev-setup][@mac-02] [61167] working on file: /opt/csi/minio-local-dev-setup/.git/hooks/pre-commit.sample 
+ [DEBUG] 2023-02-21 12:11:07 EET [minio-local-dev-setup][@mac-02] [61167] searching for aws-cli-loca-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 12:11:07 EET [minio-local-dev-setup][@mac-02] [61167] working on file: /opt/csi/minio-local-dev-setup/.git/hooks/applypatch-msg.sample 
+ [DEBUG] 2023-02-21 12:11:07 EET [minio-local-dev-setup][@mac-02] [61167] searching for aws-cli-loca-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 12:11:07 EET [minio-local-dev-setup][@mac-02] [61167] working on file: /opt/csi/minio-local-dev-setup/.git/hooks/fsmonitor-watchman.sample 
+ [DEBUG] 2023-02-21 12:11:07 EET [minio-local-dev-setup][@mac-02] [61167] searching for aws-cli-loca-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 12:11:07 EET [minio-local-dev-setup][@mac-02] [61167] working on file: /opt/csi/minio-local-dev-setup/.git/hooks/pre-receive.sample 
+ [DEBUG] 2023-02-21 12:11:07 EET [minio-local-dev-setup][@mac-02] [61167] searching for aws-cli-loca-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 12:11:07 EET [minio-local-dev-setup][@mac-02] [61167] working on file: /opt/csi/minio-local-dev-setup/.git/hooks/prepare-commit-msg.sample 
+ [DEBUG] 2023-02-21 12:11:07 EET [minio-local-dev-setup][@mac-02] [61167] searching for aws-cli-loca-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 12:11:07 EET [minio-local-dev-setup][@mac-02] [61167] working on file: /opt/csi/minio-local-dev-setup/.git/hooks/post-update.sample 
+ [DEBUG] 2023-02-21 12:11:07 EET [minio-local-dev-setup][@mac-02] [61167] searching for aws-cli-loca-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 12:11:07 EET [minio-local-dev-setup][@mac-02] [61167] working on file: /opt/csi/minio-local-dev-setup/.git/hooks/pre-merge-commit.sample 
+ [DEBUG] 2023-02-21 12:11:07 EET [minio-local-dev-setup][@mac-02] [61167] searching for aws-cli-loca-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 12:11:07 EET [minio-local-dev-setup][@mac-02] [61167] working on file: /opt/csi/minio-local-dev-setup/.git/hooks/pre-applypatch.sample 
+ [DEBUG] 2023-02-21 12:11:07 EET [minio-local-dev-setup][@mac-02] [61167] searching for aws-cli-loca-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 12:11:07 EET [minio-local-dev-setup][@mac-02] [61167] working on file: /opt/csi/minio-local-dev-setup/.git/hooks/pre-push.sample 
+ [DEBUG] 2023-02-21 12:11:07 EET [minio-local-dev-setup][@mac-02] [61167] searching for aws-cli-loca-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 12:11:07 EET [minio-local-dev-setup][@mac-02] [61167] working on file: /opt/csi/minio-local-dev-setup/.git/hooks/update.sample 
+ [DEBUG] 2023-02-21 12:11:07 EET [minio-local-dev-setup][@mac-02] [61167] searching for aws-cli-loca-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 12:11:07 EET [minio-local-dev-setup][@mac-02] [61167] working on file: /opt/csi/minio-local-dev-setup/.git/hooks/push-to-checkout.sample 
+ [DEBUG] 2023-02-21 12:11:07 EET [minio-local-dev-setup][@mac-02] [61167] searching for aws-cli-loca-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 12:11:07 EET [minio-local-dev-setup][@mac-02] [61167] working on file: /opt/csi/minio-local-dev-setup/.git/refs/heads/master 
+ [DEBUG] 2023-02-21 12:11:07 EET [minio-local-dev-setup][@mac-02] [61167] searching for aws-cli-loca-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 12:11:07 EET [minio-local-dev-setup][@mac-02] [61167] working on file: /opt/csi/minio-local-dev-setup/.git/refs/remotes/origin/master 
+ [DEBUG] 2023-02-21 12:11:07 EET [minio-local-dev-setup][@mac-02] [61167] searching for aws-cli-loca-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 12:11:07 EET [minio-local-dev-setup][@mac-02] [61167] working on file: /opt/csi/minio-local-dev-setup/.git/COMMIT_EDITMSG 
+ [DEBUG] 2023-02-21 12:11:07 EET [minio-local-dev-setup][@mac-02] [61167] searching for aws-cli-loca-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 12:11:07 EET [minio-local-dev-setup][@mac-02] [61167] working on file: /opt/csi/minio-local-dev-setup/src/docker/minio-local-dev-setup/Dockerfile.x86_64 
+ [DEBUG] 2023-02-21 12:11:07 EET [minio-local-dev-setup][@mac-02] [61167] searching for aws-cli-loca-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 12:11:07 EET [minio-local-dev-setup][@mac-02] [61167] working on file: /opt/csi/minio-local-dev-setup/src/docker/minio-local-dev-setup/Dockerfile.arm64 
+ [DEBUG] 2023-02-21 12:11:07 EET [minio-local-dev-setup][@mac-02] [61167] searching for aws-cli-loca-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 12:11:07 EET [minio-local-dev-setup][@mac-02] [61167] working on file: /opt/csi/minio-local-dev-setup/src/bash/run/set-vars-on-manjaro.func.sh 
+ [DEBUG] 2023-02-21 12:11:07 EET [minio-local-dev-setup][@mac-02] [61167] searching for aws-cli-loca-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 12:11:07 EET [minio-local-dev-setup][@mac-02] [61167] working on file: /opt/csi/minio-local-dev-setup/src/bash/run/scan-to-list-file.func.sh 
+ [DEBUG] 2023-02-21 12:11:07 EET [minio-local-dev-setup][@mac-02] [61167] searching for aws-cli-loca-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 12:11:07 EET [minio-local-dev-setup][@mac-02] [61167] working on file: /opt/csi/minio-local-dev-setup/src/bash/run/set-vars-on-suse.func.sh 
+ [DEBUG] 2023-02-21 12:11:07 EET [minio-local-dev-setup][@mac-02] [61167] searching for aws-cli-loca-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 12:11:07 EET [minio-local-dev-setup][@mac-02] [61167] working on file: /opt/csi/minio-local-dev-setup/src/bash/run/zip-me-as-module.func.sh 
+ [DEBUG] 2023-02-21 12:11:07 EET [minio-local-dev-setup][@mac-02] [61167] searching for aws-cli-loca-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 12:11:08 EET [minio-local-dev-setup][@mac-02] [61167] working on file: /opt/csi/minio-local-dev-setup/src/bash/run/set-vars-on-alpine.func.sh 
+ [DEBUG] 2023-02-21 12:11:08 EET [minio-local-dev-setup][@mac-02] [61167] searching for aws-cli-loca-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 12:11:08 EET [minio-local-dev-setup][@mac-02] [61167] working on file: /opt/csi/minio-local-dev-setup/src/bash/run/print-usage.func.sh 
+ [DEBUG] 2023-02-21 12:11:08 EET [minio-local-dev-setup][@mac-02] [61167] searching for aws-cli-loca-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 12:11:08 EET [minio-local-dev-setup][@mac-02] [61167] working on file: /opt/csi/minio-local-dev-setup/src/bash/run/run.sh 
+ [DEBUG] 2023-02-21 12:11:08 EET [minio-local-dev-setup][@mac-02] [61167] searching for aws-cli-loca-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 12:11:08 EET [minio-local-dev-setup][@mac-02] [61167] working on file: /opt/csi/minio-local-dev-setup/src/bash/run/morph-module.func.sh 
+ [DEBUG] 2023-02-21 12:11:08 EET [minio-local-dev-setup][@mac-02] [61167] searching for aws-cli-loca-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 12:11:08 EET [minio-local-dev-setup][@mac-02] [61167] working on file: /opt/csi/minio-local-dev-setup/src/bash/run/zip-me-as-component.func.sh 
+ [DEBUG] 2023-02-21 12:11:08 EET [minio-local-dev-setup][@mac-02] [61167] searching for aws-cli-loca-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 12:11:08 EET [minio-local-dev-setup][@mac-02] [61167] working on file: /opt/csi/minio-local-dev-setup/src/bash/run/set-vars-on-ubuntu.func.sh 
+ [DEBUG] 2023-02-21 12:11:08 EET [minio-local-dev-setup][@mac-02] [61167] searching for aws-cli-loca-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 12:11:08 EET [minio-local-dev-setup][@mac-02] [61167] working on file: /opt/csi/minio-local-dev-setup/src/bash/run/set-vars-on-mac.func.sh 
+ [DEBUG] 2023-02-21 12:11:08 EET [minio-local-dev-setup][@mac-02] [61167] searching for aws-cli-loca-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 12:11:08 EET [minio-local-dev-setup][@mac-02] [61167] working on file: /opt/csi/minio-local-dev-setup/src/make/install-minio-local-dev-setup.mk 
+ [DEBUG] 2023-02-21 12:11:08 EET [minio-local-dev-setup][@mac-02] [61167] searching for aws-cli-loca-dev-setup , replacing with :: aws-cli-local-dev-setup 
+[0;34m ℹ  [INFO] 2023-02-21 12:11:08 EET [minio-local-dev-setup][@mac-02] [61167] STOP :: search and replace in non-binary files  [0m
+[0;34m ℹ  [INFO] 2023-02-21 12:11:08 EET [minio-local-dev-setup][@mac-02] [61167] search and replace in dir and file paths DIR_TO_MORPH:/opt/csi/minio-local-dev-setup  [0m
+[0;34m ℹ  [INFO] 2023-02-21 12:11:09 EET [minio-local-dev-setup][@mac-02] [61167] STOP ::: running function :: do_morph_dir  [0m
+[0;32m ✔ [OK]  [OK] 2023-02-21 12:11:09 EET [minio-local-dev-setup][@mac-02] [61167] run's run completed  [0m
+[0;34m ℹ  [INFO] 2023-02-21 12:12:20 EET [minio-local-dev-setup][@mac-02] [63842] START ::: running action :: do_morph_dir  [0m
+[0;34m ℹ  [INFO] 2023-02-21 12:12:20 EET [minio-local-dev-setup][@mac-02] [63842] DIR_TO_MORPH: /opt/csi/minio-loca-dev-setup  [0m
+[0;34m ℹ  [INFO] 2023-02-21 12:12:20 EET [minio-local-dev-setup][@mac-02] [63842] STR_TO_SRCH:"aws-cli-loca-dev-setup"  [0m
+[0;34m ℹ  [INFO] 2023-02-21 12:12:20 EET [minio-local-dev-setup][@mac-02] [63842] STR_TO_REPL:"aws-cli-local-dev-setup"  [0m
+[0;34m ℹ  [INFO] 2023-02-21 12:12:22 EET [minio-local-dev-setup][@mac-02] [63842] START :: search and replace in non-binary files  [0m
+[0;34m ℹ  [INFO] 2023-02-21 12:12:22 EET [minio-local-dev-setup][@mac-02] [63842] STOP :: search and replace in non-binary files  [0m
+[0;34m ℹ  [INFO] 2023-02-21 12:12:22 EET [minio-local-dev-setup][@mac-02] [63842] search and replace in dir and file paths DIR_TO_MORPH:/opt/csi/minio-loca-dev-setup  [0m
+[0;34m ℹ  [INFO] 2023-02-21 12:12:22 EET [minio-local-dev-setup][@mac-02] [63842] STOP ::: running function :: do_morph_dir  [0m
+[0;32m ✔ [OK]  [OK] 2023-02-21 12:12:22 EET [minio-local-dev-setup][@mac-02] [63842] run's run completed  [0m
+[0;34m ℹ  [INFO] 2023-02-21 12:12:59 EET [minio-local-dev-setup][@mac-02] [64490] START ::: running action :: do_print_usage  [0m
+[0;34m ℹ  [INFO] 2023-02-21 12:13:16 EET [minio-local-dev-setup][@mac-02] [65027] START ::: running action :: do_morph_module  [0m
+[0;34m ℹ  [INFO] 2023-02-21 12:13:17 EET [minio-local-dev-setup][@mac-02] [65027] produced the /opt/csi/minio-local-dev-setup.zip file  [0m
+[0;34m ℹ  [INFO] 2023-02-21 12:13:17 EET [minio-local-dev-setup][@mac-02] [65027] DIR_TO_MORPH: /opt/csi/aws-cli-local-dev-setup  [0m
+[0;34m ℹ  [INFO] 2023-02-21 12:13:17 EET [minio-local-dev-setup][@mac-02] [65027] STR_TO_SRCH:"minio-local-dev-setup"  [0m
+[0;34m ℹ  [INFO] 2023-02-21 12:13:17 EET [minio-local-dev-setup][@mac-02] [65027] STR_TO_REPL:"aws-cli-local-dev-setup"  [0m
+[0;34m ℹ  [INFO] 2023-02-21 10:34:46 UTC [minio-local-dev-setup][@6dc955bf7d35] [14] START ::: running action :: do_print_usage  [0m
+[0;34m ℹ  [INFO] 2023-02-21 10:34:54 UTC [minio-local-dev-setup][@6dc955bf7d35] [498] START ::: running action :: do_print_usage  [0m
+[0;34m ℹ  [INFO] 2023-02-21 10:35:06 UTC [minio-local-dev-setup][@6dc955bf7d35] [983] START ::: running action :: do_deploy_start_minio  [0m
+[0;34m ℹ  [INFO] 2023-02-21 10:35:15 UTC [minio-local-dev-setup][@6dc955bf7d35] [1467] START ::: running action :: do_deploy_start_minio  [0m
+[0;34m ℹ  [INFO] 2023-02-21 10:37:41 UTC [minio-local-dev-setup][@6dc955bf7d35] [1979] START ::: running action :: do_deploy_start_minio  [0m
+[0;34m ℹ  [INFO] 2023-02-21 10:37:45 UTC [minio-local-dev-setup][@6dc955bf7d35] [2464] START ::: running action :: do_deploy_start_minio  [0m
+[0;34m ℹ  [INFO] 2023-02-21 10:38:52 UTC [minio-local-dev-setup][@6dc955bf7d35] [3076] START ::: running action :: do_deploy_start_minio  [0m
+[0;34m ℹ  [INFO] 2023-02-21 10:46:13 UTC [minio-local-dev-setup][@f3820995d577] [15] START ::: running action :: do_print_usage  [0m
+[0;34m ℹ  [INFO] 2023-02-21 10:46:17 UTC [minio-local-dev-setup][@f3820995d577] [500] START ::: running action :: do_deploy_start_minio  [0m
+[0;34m ℹ  [INFO] 2023-02-21 10:46:24 UTC [minio-local-dev-setup][@f3820995d577] [985] START ::: running action :: do_deploy_start_minio  [0m
+[0;34m ℹ  [INFO] 2023-02-21 10:47:43 UTC [minio-local-dev-setup][@f3820995d577] [1602] START ::: running action :: do_deploy_start_minio  [0m
+[0;34m ℹ  [INFO] 2023-02-21 10:48:34 UTC [minio-local-dev-setup][@f3820995d577] [2080] START ::: running action :: do_deploy_start_minio  [0m
+[0;34m ℹ  [INFO] 2023-02-21 10:48:52 UTC [minio-local-dev-setup][@f3820995d577] [2572] START ::: running action :: do_deploy_start_minio  [0m
+cal-dev-setup][@mac-02] [65027] searching for minio-local-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 12:13:19 EET [minio-local-dev-setup][@mac-02] [65027] working on file: /opt/csi/aws-cli-local-dev-setup/cnf/lst/minio-local-dev-setup.include.lst 
+ [DEBUG] 2023-02-21 12:13:19 EET [minio-local-dev-setup][@mac-02] [65027] searching for minio-local-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 12:13:19 EET [minio-local-dev-setup][@mac-02] [65027] working on file: /opt/csi/aws-cli-local-dev-setup/cnf/lst/aws-cli-local-dev-setup.include.lst 
+ [DEBUG] 2023-02-21 12:13:20 EET [minio-local-dev-setup][@mac-02] [65027] searching for minio-local-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 12:13:20 EET [minio-local-dev-setup][@mac-02] [65027] working on file: /opt/csi/aws-cli-local-dev-setup/lib/bash/funcs/manjaro-install-bins.func.sh 
+ [DEBUG] 2023-02-21 12:13:20 EET [minio-local-dev-setup][@mac-02] [65027] searching for minio-local-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 12:13:20 EET [minio-local-dev-setup][@mac-02] [65027] working on file: /opt/csi/aws-cli-local-dev-setup/lib/bash/funcs/require-var.func.sh 
+ [DEBUG] 2023-02-21 12:13:20 EET [minio-local-dev-setup][@mac-02] [65027] searching for minio-local-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 12:13:20 EET [minio-local-dev-setup][@mac-02] [65027] working on file: /opt/csi/aws-cli-local-dev-setup/lib/bash/funcs/ubuntu-install-bins.func.sh 
+ [DEBUG] 2023-02-21 12:13:20 EET [minio-local-dev-setup][@mac-02] [65027] searching for minio-local-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 12:13:20 EET [minio-local-dev-setup][@mac-02] [65027] working on file: /opt/csi/aws-cli-local-dev-setup/lib/bash/funcs/set-vars-on-suse.func.sh 
+ [DEBUG] 2023-02-21 12:13:20 EET [minio-local-dev-setup][@mac-02] [65027] searching for minio-local-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 12:13:20 EET [minio-local-dev-setup][@mac-02] [65027] working on file: /opt/csi/aws-cli-local-dev-setup/lib/bash/funcs/set-vars-on-alpine.func.sh 
+ [DEBUG] 2023-02-21 12:13:20 EET [minio-local-dev-setup][@mac-02] [65027] searching for minio-local-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 12:13:20 EET [minio-local-dev-setup][@mac-02] [65027] working on file: /opt/csi/aws-cli-local-dev-setup/lib/bash/funcs/test-helpers.sh 
+ [DEBUG] 2023-02-21 12:13:20 EET [minio-local-dev-setup][@mac-02] [65027] searching for minio-local-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 12:13:20 EET [minio-local-dev-setup][@mac-02] [65027] working on file: /opt/csi/aws-cli-local-dev-setup/lib/bash/funcs/zip-me.func.sh 
+ [DEBUG] 2023-02-21 12:13:20 EET [minio-local-dev-setup][@mac-02] [65027] searching for minio-local-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 12:13:20 EET [minio-local-dev-setup][@mac-02] [65027] working on file: /opt/csi/aws-cli-local-dev-setup/lib/bash/funcs/mac-install-bins.func.sh 
+ [DEBUG] 2023-02-21 12:13:20 EET [minio-local-dev-setup][@mac-02] [65027] searching for minio-local-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 12:13:20 EET [minio-local-dev-setup][@mac-02] [65027] working on file: /opt/csi/aws-cli-local-dev-setup/lib/bash/funcs/parse-ini-section-vars.func.sh 
+ [DEBUG] 2023-02-21 12:13:20 EET [minio-local-dev-setup][@mac-02] [65027] searching for minio-local-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 12:13:20 EET [minio-local-dev-setup][@mac-02] [65027] working on file: /opt/csi/aws-cli-local-dev-setup/lib/bash/funcs/set-vars-on-susetumbleed.func.sh 
+ [DEBUG] 2023-02-21 12:13:20 EET [minio-local-dev-setup][@mac-02] [65027] searching for minio-local-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 12:13:20 EET [minio-local-dev-setup][@mac-02] [65027] working on file: /opt/csi/aws-cli-local-dev-setup/lib/bash/funcs/morph-dir.func.sh 
+ [DEBUG] 2023-02-21 12:13:20 EET [minio-local-dev-setup][@mac-02] [65027] searching for minio-local-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 12:13:20 EET [minio-local-dev-setup][@mac-02] [65027] working on file: /opt/csi/aws-cli-local-dev-setup/lib/bash/funcs/set-vars-on-ubuntu.func.sh 
+ [DEBUG] 2023-02-21 12:13:20 EET [minio-local-dev-setup][@mac-02] [65027] searching for minio-local-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 12:13:20 EET [minio-local-dev-setup][@mac-02] [65027] working on file: /opt/csi/aws-cli-local-dev-setup/lib/bash/funcs/flush-screen.func.sh 
+ [DEBUG] 2023-02-21 12:13:20 EET [minio-local-dev-setup][@mac-02] [65027] searching for minio-local-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 12:13:20 EET [minio-local-dev-setup][@mac-02] [65027] working on file: /opt/csi/aws-cli-local-dev-setup/lib/bash/funcs/suse-install-bins.func.sh 
+ [DEBUG] 2023-02-21 12:13:20 EET [minio-local-dev-setup][@mac-02] [65027] searching for minio-local-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 12:13:20 EET [minio-local-dev-setup][@mac-02] [65027] working on file: /opt/csi/aws-cli-local-dev-setup/lib/bash/funcs/set-vars-on-mac.func.sh 
+ [DEBUG] 2023-02-21 12:13:20 EET [minio-local-dev-setup][@mac-02] [65027] searching for minio-local-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 12:13:20 EET [minio-local-dev-setup][@mac-02] [65027] working on file: /opt/csi/aws-cli-local-dev-setup/lib/bash/funcs/export-json-section-vars.func.sh 
+ [DEBUG] 2023-02-21 12:13:20 EET [minio-local-dev-setup][@mac-02] [65027] searching for minio-local-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 12:13:20 EET [minio-local-dev-setup][@mac-02] [65027] working on file: /opt/csi/aws-cli-local-dev-setup/lib/make/demand-var.func.mk 
+ [DEBUG] 2023-02-21 12:13:20 EET [minio-local-dev-setup][@mac-02] [65027] searching for minio-local-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 12:13:20 EET [minio-local-dev-setup][@mac-02] [65027] working on file: /opt/csi/aws-cli-local-dev-setup/lib/make/set-default-shell.mk 
+ [DEBUG] 2023-02-21 12:13:21 EET [minio-local-dev-setup][@mac-02] [65027] searching for minio-local-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 12:13:21 EET [minio-local-dev-setup][@mac-02] [65027] working on file: /opt/csi/aws-cli-local-dev-setup/lib/make/install-img.func.mk 
+ [DEBUG] 2023-02-21 12:13:21 EET [minio-local-dev-setup][@mac-02] [65027] searching for minio-local-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 12:13:21 EET [minio-local-dev-setup][@mac-02] [65027] working on file: /opt/csi/aws-cli-local-dev-setup/lib/make/zip-me.func.mk 
+ [DEBUG] 2023-02-21 12:13:21 EET [minio-local-dev-setup][@mac-02] [65027] searching for minio-local-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 12:13:21 EET [minio-local-dev-setup][@mac-02] [65027] working on file: /opt/csi/aws-cli-local-dev-setup/lib/make/make-help.func.mk 
+ [DEBUG] 2023-02-21 12:13:21 EET [minio-local-dev-setup][@mac-02] [65027] searching for minio-local-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 12:13:21 EET [minio-local-dev-setup][@mac-02] [65027] working on file: /opt/csi/aws-cli-local-dev-setup/lib/make/set-env.func.mk 
+ [DEBUG] 2023-02-21 12:13:21 EET [minio-local-dev-setup][@mac-02] [65027] searching for minio-local-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 12:13:21 EET [minio-local-dev-setup][@mac-02] [65027] working on file: /opt/csi/aws-cli-local-dev-setup/lib/make/prune-docker-system.func.mk 
+ [DEBUG] 2023-02-21 12:13:21 EET [minio-local-dev-setup][@mac-02] [65027] searching for minio-local-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 12:13:21 EET [minio-local-dev-setup][@mac-02] [65027] working on file: /opt/csi/aws-cli-local-dev-setup/lib/make/new-issue.mk 
+ [DEBUG] 2023-02-21 12:13:21 EET [minio-local-dev-setup][@mac-02] [65027] searching for minio-local-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 12:13:21 EET [minio-local-dev-setup][@mac-02] [65027] working on file: /opt/csi/aws-cli-local-dev-setup/src/docker/minio-local-dev-setup/Dockerfile.x86_64 
+ [DEBUG] 2023-02-21 12:13:21 EET [minio-local-dev-setup][@mac-02] [65027] searching for minio-local-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 12:13:21 EET [minio-local-dev-setup][@mac-02] [65027] working on file: /opt/csi/aws-cli-local-dev-setup/src/docker/minio-local-dev-setup/Dockerfile.arm64 
+ [DEBUG] 2023-02-21 12:13:21 EET [minio-local-dev-setup][@mac-02] [65027] searching for minio-local-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 12:13:21 EET [minio-local-dev-setup][@mac-02] [65027] working on file: /opt/csi/aws-cli-local-dev-setup/src/bash/run/set-vars-on-manjaro.func.sh 
+ [DEBUG] 2023-02-21 12:13:21 EET [minio-local-dev-setup][@mac-02] [65027] searching for minio-local-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 12:13:21 EET [minio-local-dev-setup][@mac-02] [65027] working on file: /opt/csi/aws-cli-local-dev-setup/src/bash/run/scan-to-list-file.func.sh 
+ [DEBUG] 2023-02-21 12:13:21 EET [minio-local-dev-setup][@mac-02] [65027] searching for minio-local-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 12:13:21 EET [minio-local-dev-setup][@mac-02] [65027] working on file: /opt/csi/aws-cli-local-dev-setup/src/bash/run/set-vars-on-suse.func.sh 
+ [DEBUG] 2023-02-21 12:13:21 EET [minio-local-dev-setup][@mac-02] [65027] searching for minio-local-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 12:13:21 EET [minio-local-dev-setup][@mac-02] [65027] working on file: /opt/csi/aws-cli-local-dev-setup/src/bash/run/zip-me-as-module.func.sh 
+ [DEBUG] 2023-02-21 12:13:21 EET [minio-local-dev-setup][@mac-02] [65027] searching for minio-local-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 12:13:21 EET [minio-local-dev-setup][@mac-02] [65027] working on file: /opt/csi/aws-cli-local-dev-setup/src/bash/run/set-vars-on-alpine.func.sh 
+ [DEBUG] 2023-02-21 12:13:21 EET [minio-local-dev-setup][@mac-02] [65027] searching for minio-local-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 12:13:21 EET [minio-local-dev-setup][@mac-02] [65027] working on file: /opt/csi/aws-cli-local-dev-setup/src/bash/run/print-usage.func.sh 
+ [DEBUG] 2023-02-21 12:13:21 EET [minio-local-dev-setup][@mac-02] [65027] searching for minio-local-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 12:13:21 EET [minio-local-dev-setup][@mac-02] [65027] working on file: /opt/csi/aws-cli-local-dev-setup/src/bash/run/run.sh 
+ [DEBUG] 2023-02-21 12:13:21 EET [minio-local-dev-setup][@mac-02] [65027] searching for minio-local-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 12:13:21 EET [minio-local-dev-setup][@mac-02] [65027] working on file: /opt/csi/aws-cli-local-dev-setup/src/bash/run/morph-module.func.sh 
+ [DEBUG] 2023-02-21 12:13:21 EET [minio-local-dev-setup][@mac-02] [65027] searching for minio-local-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 12:13:21 EET [minio-local-dev-setup][@mac-02] [65027] working on file: /opt/csi/aws-cli-local-dev-setup/src/bash/run/zip-me-as-component.func.sh 
+ [DEBUG] 2023-02-21 12:13:21 EET [minio-local-dev-setup][@mac-02] [65027] searching for minio-local-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 12:13:21 EET [minio-local-dev-setup][@mac-02] [65027] working on file: /opt/csi/aws-cli-local-dev-setup/src/bash/run/set-vars-on-ubuntu.func.sh 
+ [DEBUG] 2023-02-21 12:13:22 EET [minio-local-dev-setup][@mac-02] [65027] searching for minio-local-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 12:13:22 EET [minio-local-dev-setup][@mac-02] [65027] working on file: /opt/csi/aws-cli-local-dev-setup/src/bash/run/set-vars-on-mac.func.sh 
+ [DEBUG] 2023-02-21 12:13:22 EET [minio-local-dev-setup][@mac-02] [65027] searching for minio-local-dev-setup , replacing with :: aws-cli-local-dev-setup 
+ [DEBUG] 2023-02-21 12:13:22 EET [minio-local-dev-setup][@mac-02] [65027] working on file: /opt/csi/aws-cli-local-dev-setup/src/make/install-minio-local-dev-setup.mk 
+ [DEBUG] 2023-02-21 12:13:22 EET [minio-local-dev-setup][@mac-02] [65027] searching for minio-local-dev-setup , replacing with :: aws-cli-local-dev-setup 
+[0;34m ℹ  [INFO] 2023-02-21 12:13:22 EET [minio-local-dev-setup][@mac-02] [65027] STOP :: search and replace in non-binary files  [0m
+[0;34m ℹ  [INFO] 2023-02-21 12:13:22 EET [minio-local-dev-setup][@mac-02] [65027] search and replace in dir and file paths DIR_TO_MORPH:/opt/csi/aws-cli-local-dev-setup  [0m
+ [DEBUG] 2023-02-21 12:13:22 EET [minio-local-dev-setup][@mac-02] [65027] SRC_MODULE_UNDERSCORED: minio_local_dev_setup 
+ [DEBUG] 2023-02-21 12:13:22 EET [minio-local-dev-setup][@mac-02] [65027] TGT_MODULE_UNDERSCORED: aws_cli_local_dev_setup 
+[0;34m ℹ  [INFO] 2023-02-21 12:13:23 EET [minio-local-dev-setup][@mac-02] [65027] DIR_TO_MORPH: /opt/csi/aws-cli-local-dev-setup  [0m
+[0;34m ℹ  [INFO] 2023-02-21 12:13:23 EET [minio-local-dev-setup][@mac-02] [65027] STR_TO_SRCH:"minio_local_dev_setup"  [0m
+[0;34m ℹ  [INFO] 2023-02-21 12:13:24 EET [minio-local-dev-setup][@mac-02] [65027] STR_TO_REPL:"aws_cli_local_dev_setup"  [0m
+[0;34m ℹ  [INFO] 2023-02-21 12:13:26 EET [minio-local-dev-setup][@mac-02] [65027] START :: search and replace in non-binary files  [0m
+ [DEBUG] 2023-02-21 12:13:26 EET [minio-local-dev-setup][@mac-02] [65027] working on file: /opt/csi/aws-cli-local-dev-setup/Makefile 
+ [DEBUG] 2023-02-21 12:13:26 EET [minio-local-dev-setup][@mac-02] [65027] searching for minio_local_dev_setup , replacing with :: aws_cli_local_dev_setup 
+ [DEBUG] 2023-02-21 12:13:26 EET [minio-local-dev-setup][@mac-02] [65027] working on file: /opt/csi/aws-cli-local-dev-setup/.editorconfig 
+ [DEBUG] 2023-02-21 12:13:26 EET [minio-local-dev-setup][@mac-02] [65027] searching for minio_local_dev_setup , replacing with :: aws_cli_local_dev_setup 
+ [DEBUG] 2023-02-21 12:13:26 EET [minio-local-dev-setup][@mac-02] [65027] working on file: /opt/csi/aws-cli-local-dev-setup/cnf/lst/minio-local-dev-setup.exclude.lst 
+ [DEBUG] 2023-02-21 12:13:26 EET [minio-local-dev-setup][@mac-02] [65027] searching for minio_local_dev_setup , replacing with :: aws_cli_local_dev_setup 
+ [DEBUG] 2023-02-21 12:13:26 EET [minio-local-dev-setup][@mac-02] [65027] working on file: /opt/csi/aws-cli-local-dev-setup/cnf/lst/aws-cli-local-dev-setup.exclude.lst 
+ [DEBUG] 2023-02-21 12:13:26 EET [minio-local-dev-setup][@mac-02] [65027] searching for minio_local_dev_setup , replacing with :: aws_cli_local_dev_setup 
+ [DEBUG] 2023-02-21 12:13:26 EET [minio-local-dev-setup][@mac-02] [65027] working on file: /opt/csi/aws-cli-local-dev-setup/cnf/lst/run.sh.exclude.lst 
+ [DEBUG] 2023-02-21 12:13:26 EET [minio-local-dev-setup][@mac-02] [65027] searching for minio_local_dev_setup , replacing with :: aws_cli_local_dev_setup 
+ [DEBUG] 2023-02-21 12:13:26 EET [minio-local-dev-setup][@mac-02] [65027] working on file: /opt/csi/aws-cli-local-dev-setup/cnf/lst/run.sh.include.lst 
+ [DEBUG] 2023-02-21 12:13:26 EET [minio-local-dev-setup][@mac-02] [65027] searching for minio_local_dev_setup , replacing with :: aws_cli_local_dev_setup 
+ [DEBUG] 2023-02-21 12:13:26 EET [minio-local-dev-setup][@mac-02] [65027] working on file: /opt/csi/aws-cli-local-dev-setup/cnf/lst/minio-local-dev-setup.include.lst 
+ [DEBUG] 2023-02-21 12:13:26 EET [minio-local-dev-setup][@mac-02] [65027] searching for minio_local_dev_setup , replacing with :: aws_cli_local_dev_setup 
+ [DEBUG] 2023-02-21 12:13:26 EET [minio-local-dev-setup][@mac-02] [65027] working on file: /opt/csi/aws-cli-local-dev-setup/cnf/lst/aws-cli-local-dev-setup.include.lst 
+ [DEBUG] 2023-02-21 12:13:26 EET [minio-local-dev-setup][@mac-02] [65027] searching for minio_local_dev_setup , replacing with :: aws_cli_local_dev_setup 
+ [DEBUG] 2023-02-21 12:13:26 EET [minio-local-dev-setup][@mac-02] [65027] working on file: /opt/csi/aws-cli-local-dev-setup/lib/bash/funcs/manjaro-install-bins.func.sh 
+ [DEBUG] 2023-02-21 12:13:26 EET [minio-local-dev-setup][@mac-02] [65027] searching for minio_local_dev_setup , replacing with :: aws_cli_local_dev_setup 
+ [DEBUG] 2023-02-21 12:13:26 EET [minio-local-dev-setup][@mac-02] [65027] working on file: /opt/csi/aws-cli-local-dev-setup/lib/bash/funcs/require-var.func.sh 
+ [DEBUG] 2023-02-21 12:13:26 EET [minio-local-dev-setup][@mac-02] [65027] searching for minio_local_dev_setup , replacing with :: aws_cli_local_dev_setup 
+ [DEBUG] 2023-02-21 12:13:27 EET [minio-local-dev-setup][@mac-02] [65027] working on file: /opt/csi/aws-cli-local-dev-setup/lib/bash/funcs/ubuntu-install-bins.func.sh 
+ [DEBUG] 2023-02-21 12:13:27 EET [minio-local-dev-setup][@mac-02] [65027] searching for minio_local_dev_setup , replacing with :: aws_cli_local_dev_setup 
+ [DEBUG] 2023-02-21 12:13:27 EET [minio-local-dev-setup][@mac-02] [65027] working on file: /opt/csi/aws-cli-local-dev-setup/lib/bash/funcs/set-vars-on-suse.func.sh 
+ [DEBUG] 2023-02-21 12:13:27 EET [minio-local-dev-setup][@mac-02] [65027] searching for minio_local_dev_setup , replacing with :: aws_cli_local_dev_setup 
+ [DEBUG] 2023-02-21 12:13:27 EET [minio-local-dev-setup][@mac-02] [65027] working on file: /opt/csi/aws-cli-local-dev-setup/lib/bash/funcs/set-vars-on-alpine.func.sh 
+ [DEBUG] 2023-02-21 12:13:27 EET [minio-local-dev-setup][@mac-02] [65027] searching for minio_local_dev_setup , replacing with :: aws_cli_local_dev_setup 
+ [DEBUG] 2023-02-21 12:13:27 EET [minio-local-dev-setup][@mac-02] [65027] working on file: /opt/csi/aws-cli-local-dev-setup/lib/bash/funcs/test-helpers.sh 
+ [DEBUG] 2023-02-21 12:13:27 EET [minio-local-dev-setup][@mac-02] [65027] searching for minio_local_dev_setup , replacing with :: aws_cli_local_dev_setup 
+ [DEBUG] 2023-02-21 12:13:27 EET [minio-local-dev-setup][@mac-02] [65027] working on file: /opt/csi/aws-cli-local-dev-setup/lib/bash/funcs/zip-me.func.sh 
+ [DEBUG] 2023-02-21 12:13:27 EET [minio-local-dev-setup][@mac-02] [65027] searching for minio_local_dev_setup , replacing with :: aws_cli_local_dev_setup 
+ [DEBUG] 2023-02-21 12:13:27 EET [minio-local-dev-setup][@mac-02] [65027] working on file: /opt/csi/aws-cli-local-dev-setup/lib/bash/funcs/mac-install-bins.func.sh 
+ [DEBUG] 2023-02-21 12:13:27 EET [minio-local-dev-setup][@mac-02] [65027] searching for minio_local_dev_setup , replacing with :: aws_cli_local_dev_setup 
+ [DEBUG] 2023-02-21 12:13:27 EET [minio-local-dev-setup][@mac-02] [65027] working on file: /opt/csi/aws-cli-local-dev-setup/lib/bash/funcs/parse-ini-section-vars.func.sh 
+ [DEBUG] 2023-02-21 12:13:27 EET [minio-local-dev-setup][@mac-02] [65027] searching for minio_local_dev_setup , replacing with :: aws_cli_local_dev_setup 
+ [DEBUG] 2023-02-21 12:13:27 EET [minio-local-dev-setup][@mac-02] [65027] working on file: /opt/csi/aws-cli-local-dev-setup/lib/bash/funcs/set-vars-on-susetumbleed.func.sh 
+ [DEBUG] 2023-02-21 12:13:27 EET [minio-local-dev-setup][@mac-02] [65027] searching for minio_local_dev_setup , replacing with :: aws_cli_local_dev_setup 
+ [DEBUG] 2023-02-21 12:13:27 EET [minio-local-dev-setup][@mac-02] [65027] working on file: /opt/csi/aws-cli-local-dev-setup/lib/bash/funcs/morph-dir.func.sh 
+ [DEBUG] 2023-02-21 12:13:27 EET [minio-local-dev-setup][@mac-02] [65027] searching for minio_local_dev_setup , replacing with :: aws_cli_local_dev_setup 
+ [DEBUG] 2023-02-21 12:13:27 EET [minio-local-dev-setup][@mac-02] [65027] working on file: /opt/csi/aws-cli-local-dev-setup/lib/bash/funcs/set-vars-on-ubuntu.func.sh 
+ [DEBUG] 2023-02-21 12:13:27 EET [minio-local-dev-setup][@mac-02] [65027] searching for minio_local_dev_setup , replacing with :: aws_cli_local_dev_setup 
+ [DEBUG] 2023-02-21 12:13:27 EET [minio-local-dev-setup][@mac-02] [65027] working on file: /opt/csi/aws-cli-local-dev-setup/lib/bash/funcs/flush-screen.func.sh 
+ [DEBUG] 2023-02-21 12:13:27 EET [minio-local-dev-setup][@mac-02] [65027] searching for minio_local_dev_setup , replacing with :: aws_cli_local_dev_setup 
+ [DEBUG] 2023-02-21 12:13:27 EET [minio-local-dev-setup][@mac-02] [65027] working on file: /opt/csi/aws-cli-local-dev-setup/lib/bash/funcs/suse-install-bins.func.sh 
+ [DEBUG] 2023-02-21 12:13:27 EET [minio-local-dev-setup][@mac-02] [65027] searching for minio_local_dev_setup , replacing with :: aws_cli_local_dev_setup 
+ [DEBUG] 2023-02-21 12:13:27 EET [minio-local-dev-setup][@mac-02] [65027] working on file: /opt/csi/aws-cli-local-dev-setup/lib/bash/funcs/set-vars-on-mac.func.sh 
+ [DEBUG] 2023-02-21 12:13:27 EET [minio-local-dev-setup][@mac-02] [65027] searching for minio_local_dev_setup , replacing with :: aws_cli_local_dev_setup 
+ [DEBUG] 2023-02-21 12:13:27 EET [minio-local-dev-setup][@mac-02] [65027] working on file: /opt/csi/aws-cli-local-dev-setup/lib/bash/funcs/export-json-section-vars.func.sh 
+ [DEBUG] 2023-02-21 12:13:27 EET [minio-local-dev-setup][@mac-02] [65027] searching for minio_local_dev_setup , replacing with :: aws_cli_local_dev_setup 
+ [DEBUG] 2023-02-21 12:13:27 EET [minio-local-dev-setup][@mac-02] [65027] working on file: /opt/csi/aws-cli-local-dev-setup/lib/make/demand-var.func.mk 
+ [DEBUG] 2023-02-21 12:13:27 EET [minio-local-dev-setup][@mac-02] [65027] searching for minio_local_dev_setup , replacing with :: aws_cli_local_dev_setup 
+ [DEBUG] 2023-02-21 12:13:27 EET [minio-local-dev-setup][@mac-02] [65027] working on file: /opt/csi/aws-cli-local-dev-setup/lib/make/set-default-shell.mk 
+ [DEBUG] 2023-02-21 12:13:27 EET [minio-local-dev-setup][@mac-02] [65027] searching for minio_local_dev_setup , replacing with :: aws_cli_local_dev_setup 
+ [DEBUG] 2023-02-21 12:13:27 EET [minio-local-dev-setup][@mac-02] [65027] working on file: /opt/csi/aws-cli-local-dev-setup/lib/make/install-img.func.mk 
+ [DEBUG] 2023-02-21 12:13:27 EET [minio-local-dev-setup][@mac-02] [65027] searching for minio_local_dev_setup , replacing with :: aws_cli_local_dev_setup 
+ [DEBUG] 2023-02-21 12:13:27 EET [minio-local-dev-setup][@mac-02] [65027] working on file: /opt/csi/aws-cli-local-dev-setup/lib/make/zip-me.func.mk 
+ [DEBUG] 2023-02-21 12:13:28 EET [minio-local-dev-setup][@mac-02] [65027] searching for minio_local_dev_setup , replacing with :: aws_cli_local_dev_setup 
+ [DEBUG] 2023-02-21 12:13:28 EET [minio-local-dev-setup][@mac-02] [65027] working on file: /opt/csi/aws-cli-local-dev-setup/lib/make/make-help.func.mk 
+ [DEBUG] 2023-02-21 12:13:28 EET [minio-local-dev-setup][@mac-02] [65027] searching for minio_local_dev_setup , replacing with :: aws_cli_local_dev_setup 
+ [DEBUG] 2023-02-21 12:13:28 EET [minio-local-dev-setup][@mac-02] [65027] working on file: /opt/csi/aws-cli-local-dev-setup/lib/make/set-env.func.mk 
+ [DEBUG] 2023-02-21 12:13:28 EET [minio-local-dev-setup][@mac-02] [65027] searching for minio_local_dev_setup , replacing with :: aws_cli_local_dev_setup 
+ [DEBUG] 2023-02-21 12:13:28 EET [minio-local-dev-setup][@mac-02] [65027] working on file: /opt/csi/aws-cli-local-dev-setup/lib/make/prune-docker-system.func.mk 
+ [DEBUG] 2023-02-21 12:13:28 EET [minio-local-dev-setup][@mac-02] [65027] searching for minio_local_dev_setup , replacing with :: aws_cli_local_dev_setup 
+ [DEBUG] 2023-02-21 12:13:28 EET [minio-local-dev-setup][@mac-02] [65027] working on file: /opt/csi/aws-cli-local-dev-setup/lib/make/new-issue.mk 
+ [DEBUG] 2023-02-21 12:13:28 EET [minio-local-dev-setup][@mac-02] [65027] searching for minio_local_dev_setup , replacing with :: aws_cli_local_dev_setup 
+ [DEBUG] 2023-02-21 12:13:28 EET [minio-local-dev-setup][@mac-02] [65027] working on file: /opt/csi/aws-cli-local-dev-setup/src/docker/aws-cli-local-dev-setup/Dockerfile.x86_64 
+ [DEBUG] 2023-02-21 12:13:28 EET [minio-local-dev-setup][@mac-02] [65027] searching for minio_local_dev_setup , replacing with :: aws_cli_local_dev_setup 
+ [DEBUG] 2023-02-21 12:13:28 EET [minio-local-dev-setup][@mac-02] [65027] working on file: /opt/csi/aws-cli-local-dev-setup/src/docker/aws-cli-local-dev-setup/Dockerfile.arm64 
+ [DEBUG] 2023-02-21 12:13:28 EET [minio-local-dev-setup][@mac-02] [65027] searching for minio_local_dev_setup , replacing with :: aws_cli_local_dev_setup 
+ [DEBUG] 2023-02-21 12:13:28 EET [minio-local-dev-setup][@mac-02] [65027] working on file: /opt/csi/aws-cli-local-dev-setup/src/bash/run/set-vars-on-manjaro.func.sh 
+ [DEBUG] 2023-02-21 12:13:28 EET [minio-local-dev-setup][@mac-02] [65027] searching for minio_local_dev_setup , replacing with :: aws_cli_local_dev_setup 
+ [DEBUG] 2023-02-21 12:13:28 EET [minio-local-dev-setup][@mac-02] [65027] working on file: /opt/csi/aws-cli-local-dev-setup/src/bash/run/scan-to-list-file.func.sh 
+ [DEBUG] 2023-02-21 12:13:28 EET [minio-local-dev-setup][@mac-02] [65027] searching for minio_local_dev_setup , replacing with :: aws_cli_local_dev_setup 
+ [DEBUG] 2023-02-21 12:13:28 EET [minio-local-dev-setup][@mac-02] [65027] working on file: /opt/csi/aws-cli-local-dev-setup/src/bash/run/set-vars-on-suse.func.sh 
+ [DEBUG] 2023-02-21 12:13:28 EET [minio-local-dev-setup][@mac-02] [65027] searching for minio_local_dev_setup , replacing with :: aws_cli_local_dev_setup 
+ [DEBUG] 2023-02-21 12:13:28 EET [minio-local-dev-setup][@mac-02] [65027] working on file: /opt/csi/aws-cli-local-dev-setup/src/bash/run/zip-me-as-module.func.sh 
+ [DEBUG] 2023-02-21 12:13:28 EET [minio-local-dev-setup][@mac-02] [65027] searching for minio_local_dev_setup , replacing with :: aws_cli_local_dev_setup 
+ [DEBUG] 2023-02-21 12:13:28 EET [minio-local-dev-setup][@mac-02] [65027] working on file: /opt/csi/aws-cli-local-dev-setup/src/bash/run/set-vars-on-alpine.func.sh 
+ [DEBUG] 2023-02-21 12:13:28 EET [minio-local-dev-setup][@mac-02] [65027] searching for minio_local_dev_setup , replacing with :: aws_cli_local_dev_setup 
+ [DEBUG] 2023-02-21 12:13:28 EET [minio-local-dev-setup][@mac-02] [65027] working on file: /opt/csi/aws-cli-local-dev-setup/src/bash/run/print-usage.func.sh 
+ [DEBUG] 2023-02-21 12:13:28 EET [minio-local-dev-setup][@mac-02] [65027] searching for minio_local_dev_setup , replacing with :: aws_cli_local_dev_setup 
+ [DEBUG] 2023-02-21 12:13:28 EET [minio-local-dev-setup][@mac-02] [65027] working on file: /opt/csi/aws-cli-local-dev-setup/src/bash/run/run.sh 
+ [DEBUG] 2023-02-21 12:13:28 EET [minio-local-dev-setup][@mac-02] [65027] searching for minio_local_dev_setup , replacing with :: aws_cli_local_dev_setup 
+ [DEBUG] 2023-02-21 12:13:28 EET [minio-local-dev-setup][@mac-02] [65027] working on file: /opt/csi/aws-cli-local-dev-setup/src/bash/run/morph-module.func.sh 
+ [DEBUG] 2023-02-21 12:13:28 EET [minio-local-dev-setup][@mac-02] [65027] searching for minio_local_dev_setup , replacing with :: aws_cli_local_dev_setup 
+ [DEBUG] 2023-02-21 12:13:28 EET [minio-local-dev-setup][@mac-02] [65027] working on file: /opt/csi/aws-cli-local-dev-setup/src/bash/run/zip-me-as-component.func.sh 
+ [DEBUG] 2023-02-21 12:13:28 EET [minio-local-dev-setup][@mac-02] [65027] searching for minio_local_dev_setup , replacing with :: aws_cli_local_dev_setup 
+ [DEBUG] 2023-02-21 12:13:28 EET [minio-local-dev-setup][@mac-02] [65027] working on file: /opt/csi/aws-cli-local-dev-setup/src/bash/run/set-vars-on-ubuntu.func.sh 
+ [DEBUG] 2023-02-21 12:13:28 EET [minio-local-dev-setup][@mac-02] [65027] searching for minio_local_dev_setup , replacing with :: aws_cli_local_dev_setup 
+ [DEBUG] 2023-02-21 12:13:28 EET [minio-local-dev-setup][@mac-02] [65027] working on file: /opt/csi/aws-cli-local-dev-setup/src/bash/run/set-vars-on-mac.func.sh 
+ [DEBUG] 2023-02-21 12:13:28 EET [minio-local-dev-setup][@mac-02] [65027] searching for minio_local_dev_setup , replacing with :: aws_cli_local_dev_setup 
+ [DEBUG] 2023-02-21 12:13:28 EET [minio-local-dev-setup][@mac-02] [65027] working on file: /opt/csi/aws-cli-local-dev-setup/src/make/install-aws-cli-local-dev-setup.mk 
+ [DEBUG] 2023-02-21 12:13:29 EET [minio-local-dev-setup][@mac-02] [65027] searching for minio_local_dev_setup , replacing with :: aws_cli_local_dev_setup 
+[0;34m ℹ  [INFO] 2023-02-21 12:13:29 EET [minio-local-dev-setup][@mac-02] [65027] STOP :: search and replace in non-binary files  [0m
+[0;34m ℹ  [INFO] 2023-02-21 12:13:29 EET [minio-local-dev-setup][@mac-02] [65027] search and replace in dir and file paths DIR_TO_MORPH:/opt/csi/aws-cli-local-dev-setup  [0m
+[0;34m ℹ  [INFO] 2023-02-21 12:13:29 EET [minio-local-dev-setup][@mac-02] [65027] STOP ::: running function :: do_morph_module  [0m
+[0;32m ✔ [OK]  [OK] 2023-02-21 12:13:29 EET [minio-local-dev-setup][@mac-02] [65027] run's run completed  [0m
+[0;34m ℹ  [INFO] 2023-02-21 10:49:38 UTC [minio-local-dev-setup][@f3820995d577] [3094] START ::: running action :: do_deploy_start_minio  [0m
+[0;34m ℹ  [INFO] 2023-02-21 10:49:58 UTC [minio-local-dev-setup][@f3820995d577] [3616] START ::: running action :: do_deploy_start_minio  [0m
+[0;34m ℹ  [INFO] 2023-02-21 10:50:21 UTC [minio-local-dev-setup][@f3820995d577] [4137] START ::: running action :: do_deploy_start_minio  [0m
+[0;34m ℹ  [INFO] 2023-02-21 10:51:07 UTC [minio-local-dev-setup][@f3820995d577] [4660] START ::: running action :: do_deploy_start_minio  [0m
+[0;34m ℹ  [INFO] 2023-02-21 10:51:41 UTC [minio-local-dev-setup][@f3820995d577] [5185] START ::: running action :: do_deploy_start_minio  [0m
+[0;34m ℹ  [INFO] 2023-02-21 10:52:05 UTC [minio-local-dev-setup][@f3820995d577] [5709] START ::: running action :: do_deploy_start_minio  [0m
+[0;34m ℹ  [INFO] 2023-02-21 10:53:38 UTC [minio-local-dev-setup][@f3820995d577] [6232] START ::: running action :: do_deploy_start_minio  [0m
+[0;34m ℹ  [INFO] 2023-02-21 10:56:00 UTC [minio-local-dev-setup][@f3820995d577] [6756] START ::: running action :: do_deploy_start_minio  [0m
+[0;34m ℹ  [INFO] 2023-02-21 11:28:31 UTC [minio-local-dev-setup][@f3820995d577] [7281] START ::: running action :: do_deploy_start_minio  [0m
+[0;34m ℹ  [INFO] 2023-02-21 11:30:22 UTC [minio-local-dev-setup][@f3820995d577] [7812] START ::: running action :: do_deploy_start_minio  [0m
+[0;34m ℹ  [INFO] 2023-02-21 11:32:33 UTC [minio-local-dev-setup][@f3820995d577] [8336] START ::: running action :: do_deploy_start_minio  [0m
+[0;34m ℹ  [INFO] 2023-02-21 11:33:37 UTC [minio-local-dev-setup][@f3820995d577] [8865] START ::: running action :: do_deploy_start_minio  [0m
+[0;34m ℹ  [INFO] 2023-02-21 11:34:03 UTC [minio-local-dev-setup][@f3820995d577] [9390] START ::: running action :: do_deploy_start_minio  [0m
+[0;34m ℹ  [INFO] 2023-02-21 11:34:30 UTC [minio-local-dev-setup][@f3820995d577] [9916] START ::: running action :: do_deploy_start_minio  [0m
+[0;34m ℹ  [INFO] 2023-02-21 11:34:37 UTC [minio-local-dev-setup][@f3820995d577] [10439] START ::: running action :: do_deploy_start_minio  [0m
+[0;34m ℹ  [INFO] 2023-02-21 11:34:55 UTC [minio-local-dev-setup][@f3820995d577] [10961] START ::: running action :: do_deploy_start_minio  [0m
+[0;34m ℹ  [INFO] 2023-02-21 11:35:32 UTC [minio-local-dev-setup][@f3820995d577] [11484] START ::: running action :: do_deploy_start_minio  [0m
+[0;34m ℹ  [INFO] 2023-02-21 11:35:55 UTC [minio-local-dev-setup][@f3820995d577] [12008] START ::: running action :: do_deploy_start_minio  [0m
+[0;34m ℹ  [INFO] 2023-02-21 12:12:51 UTC [minio-local-dev-setup][@f3820995d577] [12584] START ::: running action :: do_install_minio  [0m
+ [installing] 2023-02-21 12:12:51 UTC [minio-local-dev-setup][@f3820995d577] [12584] the must-have pre-requisites 
+[0;34m ℹ  [INFO] 2023-02-21 12:35:25 UTC [minio-local-dev-setup][@f3820995d577] [13116] START ::: running action :: do_install_minio  [0m
+[0;34m ℹ  [INFO] 2023-02-21 12:35:53 UTC [minio-local-dev-setup][@f3820995d577] [13610] START ::: running action :: do_install_minio  [0m
+[0;34m ℹ  [INFO] 2023-02-21 12:36:10 UTC [minio-local-dev-setup][@f3820995d577] [14104] START ::: running action :: do_install_minio  [0m
+[0;34m ℹ  [INFO] 2023-02-21 12:36:11 UTC [minio-local-dev-setup][@f3820995d577] [14104] START ::: running action :: do_install_minio  [0m
+ [installing] 2023-02-21 12:36:11 UTC [minio-local-dev-setup][@f3820995d577] [14104] the must-have pre-requisites 
+[0;31m ❌ [NOK]  [FATAL] 2023-02-21 12:36:11 UTC [minio-local-dev-setup][@f3820995d577] [14104] failed to run action: do_install_minio !!! [0m
+[0;34m ℹ  [INFO] 2023-02-21 12:44:41 UTC [minio-local-dev-setup][@f3820995d577] [15123] START ::: running action :: do_install_minio  [0m
+[0;34m ℹ  [INFO] 2023-02-21 12:44:41 UTC [minio-local-dev-setup][@f3820995d577] [15123] START ::: running action :: do_install_minio  [0m
+[0;34m ℹ  [INFO] 2023-02-21 12:44:41 UTC [minio-local-dev-setup][@f3820995d577] [15123] installing the must-have pre-requisites  [0m
+[0;34m ℹ  [INFO] 2023-02-21 12:44:41 UTC [minio-local-dev-setup][@f3820995d577] [15123] STOP ::: running function :: do_install_minio  [0m
+[0;32m ✔ [OK]  [OK] 2023-02-21 12:44:41 UTC [minio-local-dev-setup][@f3820995d577] [15123] run's run completed  [0m
+[0;34m ℹ  [INFO] 2023-02-21 12:44:54 UTC [minio-local-dev-setup][@f3820995d577] [16154] START ::: running action :: do_install_minio  [0m
+[0;34m ℹ  [INFO] 2023-02-21 12:44:55 UTC [minio-local-dev-setup][@f3820995d577] [16154] START ::: running action :: do_install_minio  [0m
+[0;34m ℹ  [INFO] 2023-02-21 12:44:55 UTC [minio-local-dev-setup][@f3820995d577] [16154] installing the must-have pre-requisites  [0m
+[0;34m ℹ  [INFO] 2023-02-21 12:44:55 UTC [minio-local-dev-setup][@f3820995d577] [16154] STOP ::: running function :: do_install_minio  [0m
+[0;32m ✔ [OK]  [OK] 2023-02-21 12:44:55 UTC [minio-local-dev-setup][@f3820995d577] [16154] run's run completed  [0m
+[0;34m ℹ  [INFO] 2023-02-21 12:45:37 UTC [minio-local-dev-setup][@f3820995d577] [17185] START ::: running action :: do_install_minio  [0m
+[0;34m ℹ  [INFO] 2023-02-21 12:45:38 UTC [minio-local-dev-setup][@f3820995d577] [17185] START ::: running action :: do_install_minio  [0m
+[0;34m ℹ  [INFO] 2023-02-21 12:45:38 UTC [minio-local-dev-setup][@f3820995d577] [17185] installing the must-have pre-requisites  [0m
+[0;34m ℹ  [INFO] 2023-02-21 12:45:38 UTC [minio-local-dev-setup][@f3820995d577] [17185] STOP ::: running function :: do_install_minio  [0m
+[0;32m ✔ [OK]  [OK] 2023-02-21 12:45:38 UTC [minio-local-dev-setup][@f3820995d577] [17185] run's run completed  [0m
+[0;34m ℹ  [INFO] 2023-02-21 13:54:47 UTC [minio-local-dev-setup][@a1d38cc2358e] [15] START ::: running action :: do_print_usage  [0m
+[0;34m ℹ  [INFO] 2023-02-21 13:57:52 UTC [minio-local-dev-setup][@a1d38cc2358e] [516] START ::: running action :: do_deploy_start_minio  [0m
+[0;34m ℹ  [INFO] 2023-02-21 14:02:28 UTC [minio-local-dev-setup][@1ca23db8a2ea] [15] START ::: running action :: do_print_usage  [0m
+[0;34m ℹ  [INFO] 2023-02-21 14:02:39 UTC [minio-local-dev-setup][@1ca23db8a2ea] [515] START ::: running action :: do_deploy_start_minio  [0m
+[0;34m ℹ  [INFO] 2023-02-21 14:02:58 UTC [minio-local-dev-setup][@1ca23db8a2ea] [1018] START ::: running action :: do_deploy_start_minio  [0m
+[0;31m ❌ [NOK]  [FATAL] 2023-02-21 14:03:01 UTC [minio-local-dev-setup][@1ca23db8a2ea] [1018] failed to run action: do_deploy_start_minio !!! [0m
+[0;34m ℹ  [INFO] 2023-02-21 14:03:23 UTC [minio-local-dev-setup][@1ca23db8a2ea] [1674] START ::: running action :: do_deploy_start_minio  [0m
+[0;34m ℹ  [INFO] 2023-02-21 14:04:27 UTC [minio-local-dev-setup][@1ca23db8a2ea] [2218] START ::: running action :: do_deploy_start_minio  [0m
+[0;34m ℹ  [INFO] 2023-02-21 14:09:52 UTC [minio-local-dev-setup][@963813522cee] [7] START ::: running action :: do_deploy_start_minio  [0m
+[0;34m ℹ  [INFO] 2023-02-21 14:09:55 UTC [minio-local-dev-setup][@963813522cee] [7] STOP ::: running function :: do_deploy_start_minio  [0m
+[0;32m ✔ [OK]  [OK] 2023-02-21 14:09:55 UTC [minio-local-dev-setup][@963813522cee] [7] run's run completed  [0m
+[0;34m ℹ  [INFO] 2023-02-21 14:16:46 UTC [minio-local-dev-setup][@23747f00c7c3] [7] START ::: running action :: do_deploy_start_minio  [0m
+[0;34m ℹ  [INFO] 2023-02-21 14:16:50 UTC [minio-local-dev-setup][@23747f00c7c3] [7] STOP ::: running function :: do_deploy_start_minio  [0m
+[0;32m ✔ [OK]  [OK] 2023-02-21 14:16:50 UTC [minio-local-dev-setup][@23747f00c7c3] [7] run's run completed  [0m
